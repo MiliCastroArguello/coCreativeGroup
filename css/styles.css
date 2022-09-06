@@ -1,0 +1,583 @@
+/* SINTAXIS
+    selector {
+        propiedad: valor;
+        propiedad2: valor;
+    }
+*/
+
+/*class porque empieza con un punto*/
+/* de esta forma solamente lo que yo identifico en el html va a estar de este color */
+html{
+    font-size: 62.5%;
+}/* esto es para que el REM valga 10pxy sirve para que se adapte a celular*/
+
+/* todos los H van a tener estas propiedades */
+h1{
+    color:#f8ffe5;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;  
+    font-weight: bold;  
+    font-size: 4rem;
+}
+
+h2{ 
+    color:#f8ffe5;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 4rem;
+    text-align: center;
+   
+}
+
+h3{ 
+    color: #073B4C;
+    font-style: italic;
+    font-weight: 300;
+}
+
+p{  
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    line-height: 1.6;
+}
+
+/* ID se utiliza para porciones grandes, NO puede haber 2 iguales
+sino se usan las clases que son para menos porciones y se pueden uilizar 
+varias veces se llaman con el #  */
+
+.logoCocreative{    
+    width: 20rem;
+    height: 20rem;
+    margin: 1rem;
+    padding: 1rem;
+   
+}
+
+.titulo1{
+    grid-area: titulo1;
+}
+
+.whoWe{
+    grid-area: who;
+}
+
+.fotoMagui{
+    display: flex;
+    grid-area: fotoMagui;
+}
+.tituloMagui{
+    grid-area: tituloMagui;
+    font-size: 3rem;
+}
+.texto5{
+    grid-area: texto5;
+}
+
+.tituloMili{
+    grid-area: mili;
+}
+.tituloEuge{
+    grid-area: euge;
+}
+
+.texto6{
+    grid-area: texto6;
+}
+.texto7{
+    grid-area: texto7;
+}
+
+
+.principalIndex{
+    background-color: #EF476F;
+    width: 150rem;
+    height: 110rem;
+}
+
+.principal__slogan{
+    color: #f8ffe5;
+    text-align: center;
+    font: italic;
+    margin: 5rem;
+    padding: 2rem ;
+}
+
+.principal__tituloOS{
+    text-align: center;
+    font-style:normal ;
+    margin-top: 0.1rem ;
+    margin-bottom: 1rem;
+    
+}
+
+
+
+.fotoPortada{
+    background-image:none;
+    background-position: center;
+
+    width: 150rem;
+    height:90rem;
+}
+
+.fotoPasion{
+    background-position: center;
+    width: 50rem;
+    height:40rem;
+}
+
+ul li{
+    display: inline-block;
+    padding: 1rem 1rem;
+    text-align: right;
+    font-family:'Montserrat', sans-serif;
+    font-size: 1.5rem;
+ }
+
+.NavPrincipal ul li{
+    background-color: #f8ffe5;
+}
+
+.definicionPlandeaccion{
+    font-family:'Montserrat', sans-serif;
+}
+
+
+.ourMision{
+    font-size: 2.5rem;
+    font-family:'Montserrat', sans-serif;
+
+}
+
+.nuestroEquipo{
+    display: block;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+/* siempre hay que poner 1 display grid */
+/* .contenedor2{
+    display:grid;
+    /* cantidad de valores = cantidad de filas y columnas */
+    /* grid-template-columns:10px 10pxr; /* sreia 50% 50%se especifica el tamaño de las columnas, si escribo dos veces 500 se da a entender que son 2 columnas y si quiero 5 escribo 5 veces 500. pueden tener didferentes tamaños. */
+   /*  grid-template-rows: 20px 20px 20px 20px; /* pueden ir escrito con fracciones FR junto con los porcentajes se van adaptando. Los pixeles NO! */
+/* el primer elemento es la cantidad de filas y el 2 es el valor que tenga esa cantidad de filas. */
+ 
+/* AREAS */
+   /*  grid-template-areas: 
+    "foto texto" /* si quiero que sea solo un espacio pueod poner un punto o none ylo deja en blanco */
+  /*   "texto foto"
+    "foto texto"
+     ;/* va *//* mos a dibujar con letras nuestro objetivo final, escribimos la cantidad de filas y columna con los nombres uqe quiero que se manejen de esa manera. */
+    
+    /*  justif y-items:start;
+     align-items: end;
+     padding: 200px;
+     margin: 300px;
+} */ 
+
+.fotoMagui{
+    display: flex;
+    justify-content: start;
+    background-color: white;
+    width: 30rem;
+    height: 35rem;
+    padding: 1rem;
+    margin: 2.5rem;
+}
+
+.fotoMili{
+    display: flex;
+    justify-content: start;
+    background-color: white;
+    width: 30rem;
+    height: 35rem;
+    padding: 1rem;
+    margin: 2.5rem;
+}
+
+.fotoEuge{
+    display: flex;
+    justify-content: start;
+    background-color: white;
+    width: 30rem;
+    height: 35rem;
+    padding: 1rem;
+    margin: 2.5rem;
+}
+
+
+/* .imagenSteps{
+    width: 140rem;
+    height:80rem;
+    border: 1rem;
+    margin: 0.1rem;
+    padding: 4.5rem;
+} */
+
+
+footer{
+    display: flex;
+    position: 0;
+    bottom: 0;
+}
+
+.footerSection{
+    background-color: #073B4C;
+    width: 152rem;
+    height: 15rem;
+}
+
+.copyRight{ 
+    font-size: 1.8rem;
+    color: white;
+    display:flex;
+    justify-content: end;
+    font-weight: bold;
+    margin: 0;
+}
+
+.whatsapp{
+    display:flex;
+    justify-content: start;
+    width:3rem;
+    height:3rem;
+    padding: 1rem;
+}
+.LinkedIn{
+    display:flex;
+    justify-content: start;
+    width: 3rem;
+    height: 3rem;
+    padding: 1rem;
+}
+/* INDEX */
+/* Grid Layout */
+.bodyIndex{
+    display: grid;
+    gap: 1.6rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2 (1fr 4fr);
+}
+
+
+/* CONTACT US */
+
+.bodyContact{
+    background-image: url(../multimedia/foto4.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+    width: 150rem;
+    
+}
+
+.principalContact{
+    background-color: #EF476F;
+    font-family:'Montserrat', sans-serif;
+    width: 120rem;
+    height: 30rem;
+    margin: 5rem 5rem;
+    position: relative;
+    padding-bottom: 2rem;
+    min-height: 100vh;
+}
+
+.legendFormulario{
+    color: #f8ffe5;
+    font-size: 2rem;
+    font-weight:800;
+    padding: 1rem;
+ }
+
+.formularioContacto{
+    font-size: 1.5rem;
+    color: #f8ffe5;
+    line-height: 2;
+}
+
+
+.formContact{
+    width: 100rem;
+    height: fit-content;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background: #f4beca;
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 1rem;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    border: none;
+}
+textarea{
+    min-height: 10rem;
+}
+
+#botonContact{
+    background-color:white;
+    color:#EF476F;
+    text-align: center;
+    padding: 2rem;
+    font-weight: 900;
+    font-size: 1.8rem;
+    width: 12rem;
+}
+#botonContact{
+    cursor: pointer;
+}
+
+
+/* APPLY FOR AN OPPORTUNITY */
+
+.bodyApply{
+    width: 180rem;
+    height: 180rem;
+}
+.principalApply{
+    background-color: #EF476F;
+    width: 150rem;
+    height: 150rem;
+}
+.pruebaTexto{
+    width: 100rem;
+    font-size: 2rem;    
+    line-height: 1.6;
+}
+.formApply{
+    width: 140rem;
+    height: 110rem;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background: #f4beca;
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 1rem;
+}
+#botonApply{
+    cursor: pointer;
+}
+
+#botonApply{
+    background-color:white;
+    color:#EF476F;
+    text-align: center;
+    padding: 2rem;
+    font-weight: 900;
+    font-size: 1.8rem;
+    width: 12rem;
+}
+
+
+/* ABOUT US */
+
+.contenedorPrincipal{
+    display: flex;
+    flex-direction: column;
+    background-color: #EF476F;
+    width: 148rem;
+    height: 350rem;
+    padding: 10px;
+  /* Aca voy a incluir una Grilla */
+}
+
+.contenedorPrincipal h2{
+    color: #073B4C;
+}
+.contenedorPrincipal h3{
+    font-size: 5rem;
+    font-style: normal;
+    font-family:'Montserrat', sans-serif;
+}
+
+.contenedorPrincipal article{
+    background-color: #f8ffe5;
+    width: 140rem;
+    margin: 10px;
+    margin-left: 35px;
+    padding: 10px;
+    text-align: center;
+}
+/* .sobreNosotras{
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    grid-template-rows: repeat(7 5fr);
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    grid-template-areas: 
+    who who
+    fotoMagui texto5
+    tituloMili tituloMili
+    fotoMili texto6
+    tituloEuge tituloEuge
+    fotoEuge texto7;
+} */
+
+/* OUR SERVICES */
+
+.principalService{
+    background-color: #EF476F;
+    width: 150rem;
+    height: 100rem;
+}
+.principal__tituloOS{
+    padding: 1rem;
+}
+.imagenSteps{
+    width: 90%;
+    padding: 1rem 10rem 1rem 7rem;
+}
+
+/* RESPONSIVE INDEX tamaño tablet*/
+@media screen and (max-width:768px){
+    .principalIndex{ 
+        background-color: #EF476F;
+        width: 550rem;
+        height: 50rem;
+    }   
+    body{
+        height: 55rem;
+    }
+    .NavPrincipal ul li{
+        background-color: #ffffff;
+
+    }
+    .fotoPortada{
+        width: 50rem;
+        height: 30rem;
+        margin-left: 0.6rem;
+        margin-right: 1rem;
+    }
+    .principal__slogan{
+        color: #f8ffe5;
+        text-align: left;
+        font: italic;
+        font-size: 2rem;
+        margin: 1rem;
+    }
+    .logoCocreative{    
+        width: 13rem;
+        height: 10.5rem;
+        margin: 1rem;
+        padding: 1rem;
+        }
+    ul li{
+        display: block;
+        font-family:'Montserrat', sans-serif;
+        font-size: 1rem;
+     }
+
+     footer{
+        display:flex;
+     }
+
+     .copyRight{ 
+        display:flex;
+        justify-content: start;
+        font-size: 1rem;
+        padding: 1rem;
+    }
+
+    .whatsapp{
+        display:flex;
+        justify-content: end;
+        width:2rem;
+        height:2rem;
+        padding: 0,5rem;
+    }
+    .LinkedIn{
+        display:flex;
+        justify-content: end;
+        width:2rem;
+        height:2rem;
+        padding: 0,5rem;
+    }
+ }
+
+  /* RESPONSIVE TAMAÑO CELULAR */
+  @media screen and (max-width:500px){
+    .bodyIndex{
+        width: 10rem;
+        margin: 5px;
+        margin-right: 35px;
+    }
+    .NavPrincipal ul li{
+        background-color: #ffffff;
+
+    }
+    .principalIndex{ 
+        background-color: #EF476F;
+        width: 80rem;
+        height: 70rem;
+    }   
+    body{
+        height: 50vw;
+
+    }
+    
+    .fotoPortada{
+        width: 98%;
+        margin: 2px;
+    }
+    .principal__slogan{
+        color: #f8ffe5;
+        text-align: center;
+        font: italic;
+        font-size: 2rem;
+        margin: 1rem;
+    }
+    .logoCocreative{  
+        width: 10.5rem;
+        height: 10.5rem;
+        margin: 1rem;
+        padding: 1rem;
+        }
+    ul li{
+        font-family:'Montserrat', sans-serif;
+        font-size: 1rem;
+     }
+
+     footer{
+        display:flex;
+     }
+     
+
+     .copyRight{ 
+        display:flex;
+        justify-content: start;
+        font-size: 1rem;
+        padding: 1rem;
+    }
+
+    .whatsapp{
+        display:flex;
+        justify-content: end;
+        width:2rem;
+        height:2rem;
+        padding: 0,5rem;
+    }
+    .LinkedIn{
+        display:flex;
+        justify-content: end;
+        width:2rem;
+        height:2rem;
+        padding: 0,5rem;
+    }
+
+    .contenedorPrincipal h2{
+        font-size: 2rem;
+    
+    }
+    
+    }
