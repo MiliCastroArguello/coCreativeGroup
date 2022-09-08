@@ -9,7 +9,7 @@
 /* de esta forma solamente lo que yo identifico en el html va a estar de este color */
 html{
     font-size: 62.5%;
-}/* esto es para que el REM valga 10pxy sirve para que se adapte a celular*/
+}/* esto es para que el REM valga 10px sirve para que se adapte a celular*/
 
 /* todos los H van a tener estas propiedades */
 h1{
@@ -25,7 +25,6 @@ h2{
     font-family: 'Montserrat', sans-serif; 
     font-size: 4rem;
     text-align: center;
-   
 }
 
 h3{ 
@@ -39,66 +38,42 @@ p{
     font-size: 2rem;
     line-height: 1.6;
 }
+body{
+    width: 98%;
+    max-width: 1000px;
+    margin:0;
+}
+
+header{
+    width:100%;
+    max-width: 1445px;
+}
+
+header ul:hover{
+    cursor: pointer;
+}
+
+footer{
+    background-color: #073B4C;
+    width: 100%;
+    height: 17rem;
+    margin: 0
+}
+
+.NavPrincipal ul{
+    display: flex;
+    justify-content: flex-end;
+}
 
 /* ID se utiliza para porciones grandes, NO puede haber 2 iguales
 sino se usan las clases que son para menos porciones y se pueden uilizar 
 varias veces se llaman con el #  */
 
 .logoCocreative{    
-    width: 20rem;
-    height: 20rem;
+    width: 15%;
+    height: auto;
     margin: 1rem;
     padding: 1rem;
-   
-}
-
-.titulo1{
-    grid-area: titulo1;
-}
-
-.whoWe{
-    grid-area: who;
-}
-
-.fotoMagui{
-    display: flex;
-    grid-area: fotoMagui;
-}
-.tituloMagui{
-    grid-area: tituloMagui;
-    font-size: 3rem;
-}
-.texto5{
-    grid-area: texto5;
-}
-
-.tituloMili{
-    grid-area: mili;
-}
-.tituloEuge{
-    grid-area: euge;
-}
-
-.texto6{
-    grid-area: texto6;
-}
-.texto7{
-    grid-area: texto7;
-}
-
-
-.principalIndex{
-    background-color: #EF476F;
-    width: 150rem;
-    height: 110rem;
-}
-
-.principal__slogan{
-    color: #f8ffe5;
-    text-align: center;
-    font: italic;
-    margin: 5rem;
-    padding: 2rem ;
 }
 
 .principal__tituloOS{
@@ -110,15 +85,6 @@ varias veces se llaman con el #  */
 }
 
 
-
-.fotoPortada{
-    background-image:none;
-    background-position: center;
-
-    width: 150rem;
-    height:90rem;
-}
-
 .fotoPasion{
     background-position: center;
     width: 50rem;
@@ -126,12 +92,12 @@ varias veces se llaman con el #  */
 }
 
 ul li{
-    display: inline-block;
+    display: inline;
     padding: 1rem 1rem;
     text-align: right;
     font-family:'Montserrat', sans-serif;
     font-size: 1.5rem;
- }
+}
 
 .NavPrincipal ul li{
     background-color: #f8ffe5;
@@ -140,7 +106,6 @@ ul li{
 .definicionPlandeaccion{
     font-family:'Montserrat', sans-serif;
 }
-
 
 .ourMision{
     font-size: 2.5rem;
@@ -166,18 +131,18 @@ ul li{
     /* grid-template-columns:10px 10pxr; /* sreia 50% 50%se especifica el tamaño de las columnas, si escribo dos veces 500 se da a entender que son 2 columnas y si quiero 5 escribo 5 veces 500. pueden tener didferentes tamaños. */
    /*  grid-template-rows: 20px 20px 20px 20px; /* pueden ir escrito con fracciones FR junto con los porcentajes se van adaptando. Los pixeles NO! */
 /* el primer elemento es la cantidad de filas y el 2 es el valor que tenga esa cantidad de filas. */
- 
+
 /* AREAS */
-   /*  grid-template-areas: 
-    "foto texto" /* si quiero que sea solo un espacio pueod poner un punto o none ylo deja en blanco */
-  /*   "texto foto"
+/*  grid-template-areas: 
+"foto texto" /* si quiero que sea solo un espacio pueod poner un punto o none ylo deja en blanco */
+/*   "texto foto"
     "foto texto"
      ;/* va *//* mos a dibujar con letras nuestro objetivo final, escribimos la cantidad de filas y columna con los nombres uqe quiero que se manejen de esa manera. */
     
     /*  justif y-items:start;
-     align-items: end;
-     padding: 200px;
-     margin: 300px;
+    align-items: end;
+    padding: 200px;
+    margin: 300px;
 } */ 
 
 .fotoMagui{
@@ -211,34 +176,15 @@ ul li{
 }
 
 
-/* .imagenSteps{
-    width: 140rem;
-    height:80rem;
-    border: 1rem;
-    margin: 0.1rem;
-    padding: 4.5rem;
-} */
-
-
-footer{
-    display: flex;
-    position: 0;
-    bottom: 0;
-}
-
-.footerSection{
-    background-color: #073B4C;
-    width: 152rem;
-    height: 15rem;
-}
 
 .copyRight{ 
     font-size: 1.8rem;
     color: white;
+    display: block;
     display:flex;
     justify-content: end;
     font-weight: bold;
-    margin: 0;
+    margin:0;
 }
 
 .whatsapp{
@@ -255,15 +201,53 @@ footer{
     height: 3rem;
     padding: 1rem;
 }
+
+
 /* INDEX */
 /* Grid Layout */
-.bodyIndex{
+.contenedorIndex{
+    box-sizing: border-box;
+    width: 90%;
+    max-width: 2000px;
+    margin:1rem auto;
     display: grid;
     gap: 1.6rem;
     grid-template-columns: 1fr;
-    grid-template-rows: 2 (1fr 4fr);
+    grid-template-rows: 3 (1fr);
+    
+}
+.contenedorIndex img{
+    grid-area: "foto-Portada";
+}
+.contenedorIndex H2{
+    grid-area:"Slogan-Portada";
 }
 
+.principalIndex{
+    background-color: #EF476F;
+    width: 95%;
+    max-width: fit-content;
+}
+
+.principalIndex fotoportada{
+    width: 90%;
+    height: auto;
+}
+.principal__slogan{
+    color: #f8ffe5;
+    text-align: center;
+    font: italic;
+    margin: 5rem;
+    padding: 0rem ;
+}
+.fotoPortada{
+    background-image:none;
+    background-position: center;
+    width: 90%;
+    height:auto;
+    padding: 0rem 2rem 1rem 7rem;
+
+}
 
 /* CONTACT US */
 
@@ -292,7 +276,7 @@ footer{
     font-size: 2rem;
     font-weight:800;
     padding: 1rem;
- }
+}
 
 .formularioContacto{
     font-size: 1.5rem;
@@ -383,8 +367,6 @@ textarea{
 /* ABOUT US */
 
 .contenedorPrincipal{
-    display: flex;
-    flex-direction: column;
     background-color: #EF476F;
     width: 148rem;
     height: 350rem;
@@ -439,145 +421,74 @@ textarea{
     padding: 1rem 10rem 1rem 7rem;
 }
 
-/* RESPONSIVE INDEX tamaño tablet*/
-@media screen and (max-width:768px){
-    .principalIndex{ 
-        background-color: #EF476F;
-        width: 550rem;
-        height: 50rem;
-    }   
-    body{
-        height: 55rem;
-    }
-    .NavPrincipal ul li{
-        background-color: #ffffff;
-
-    }
-    .fotoPortada{
-        width: 50rem;
-        height: 30rem;
-        margin-left: 0.6rem;
-        margin-right: 1rem;
-    }
-    .principal__slogan{
-        color: #f8ffe5;
-        text-align: left;
-        font: italic;
-        font-size: 2rem;
-        margin: 1rem;
-    }
-    .logoCocreative{    
-        width: 13rem;
-        height: 10.5rem;
-        margin: 1rem;
-        padding: 1rem;
-        }
-    ul li{
-        display: block;
-        font-family:'Montserrat', sans-serif;
-        font-size: 1rem;
-     }
-
-     footer{
-        display:flex;
-     }
-
-     .copyRight{ 
-        display:flex;
-        justify-content: start;
-        font-size: 1rem;
-        padding: 1rem;
-    }
-
-    .whatsapp{
-        display:flex;
-        justify-content: end;
-        width:2rem;
-        height:2rem;
-        padding: 0,5rem;
-    }
-    .LinkedIn{
-        display:flex;
-        justify-content: end;
-        width:2rem;
-        height:2rem;
-        padding: 0,5rem;
-    }
- }
 
   /* RESPONSIVE TAMAÑO CELULAR */
-  @media screen and (max-width:500px){
-    .bodyIndex{
-        width: 10rem;
-        margin: 5px;
-        margin-right: 35px;
-    }
-    .NavPrincipal ul li{
-        background-color: #ffffff;
-
-    }
-    .principalIndex{ 
-        background-color: #EF476F;
-        width: 80rem;
-        height: 70rem;
-    }   
+@media screen and (max-width:500px){
     body{
-        height: 50vw;
-
+        width: 100%;
+        height: auto;
+    }
+    main h2{
+        text-align: center;
+    }
+    ul li a{
+        font-size: 1rem;
+        flex-direction: column;
+    }
+    .NavPrincipal ul{
+        flex-direction: column;
+        font-size: 0.5rem;
+    }
+    .logoCocreative{    
+        width: 10%;
     }
     
+    .principalIndex{ 
+        background-color: #EF476F;
+        width: 80%;
+        height: auto;
+    }   
+        
     .fotoPortada{
-        width: 98%;
+        width: 50%;
+        height: auto;
         margin: 2px;
     }
     .principal__slogan{
-        color: #f8ffe5;
-        text-align: center;
-        font: italic;
         font-size: 2rem;
         margin: 1rem;
     }
-    .logoCocreative{  
-        width: 10.5rem;
-        height: 10.5rem;
-        margin: 1rem;
-        padding: 1rem;
-        }
-    ul li{
-        font-family:'Montserrat', sans-serif;
-        font-size: 1rem;
-     }
-
-     footer{
-        display:flex;
-     }
-     
-
-     .copyRight{ 
-        display:flex;
-        justify-content: start;
-        font-size: 1rem;
-        padding: 1rem;
+    
+    .copyRight{
+        font-size: small;
     }
 
     .whatsapp{
-        display:flex;
-        justify-content: end;
         width:2rem;
         height:2rem;
-        padding: 0,5rem;
     }
     .LinkedIn{
-        display:flex;
-        justify-content: end;
         width:2rem;
         height:2rem;
-        padding: 0,5rem;
     }
 
     .contenedorPrincipal h2{
-        font-size: 2rem;
-    
+        font-size: 1rem;    
     }
     
     }
+/* RESPONSIVE CEL OUR SERVICES */
+@media screen and (max-width:500px){
+main .principal__tituloOS{
+    font-size: 1rem;
+    }
+main .imagenSteps{
+    width: 40%;
+    height: auto;
+}
+.NavPrincipal ul{
+    flex-direction: column;
+    display: inline;
+    flex-wrap: wrap;
+}
+}
