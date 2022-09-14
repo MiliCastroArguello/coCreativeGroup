@@ -239,7 +239,9 @@ ul li{
     font: italic;
     margin: 5rem;
     padding: 0rem ;
-}
+
+ }
+ 
 .fotoPortada{
     background-image:none;
     background-position: center;
@@ -407,7 +409,14 @@ textarea{
 } */
 
 /* OUR SERVICES */
-
+article img{
+    filter: grayscale(100%);
+    transition:all 3s;
+}
+article img:hover{
+    margin: 20px;
+    filter: none;
+}
 .principalService{
     background-color: #EF476F;
     width: 150rem;
