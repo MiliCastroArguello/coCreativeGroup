@@ -410,12 +410,12 @@ textarea{
 
 /* OUR SERVICES */
 article img{
-    filter: grayscale(100%);
-    transition:all 3s;
+    filter: grayscale(50%);
+    transition:all 5s;
 }
 article img:hover{
     margin: 20px;
-    filter: none;
+    filter: none; 
 }
 .principalService{
     background-color: #EF476F;
