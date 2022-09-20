@@ -38,10 +38,11 @@ p{
     font-size: 2rem;
     line-height: 1.6;
 }
-body{
-    width: 98%;
-    max-width: 1000px;
+.bodyIndex{
+    width: 100vw;
+    height: 100vh;
     margin:0;
+    padding: 0;
 }
 
 header{
@@ -55,9 +56,7 @@ header ul:hover{
 
 footer{
     background-color: #073B4C;
-    width: 100%;
-    height: 17rem;
-    margin: 0
+    padding: 10px
 }
 
 .NavPrincipal ul{
@@ -70,21 +69,25 @@ sino se usan las clases que son para menos porciones y se pueden uilizar
 varias veces se llaman con el #  */
 
 .logoCocreative{    
-    width: 15%;
+    width: 150px;
     height: auto;
     margin: 1rem;
     padding: 1rem;
 }
 
-.principal__tituloOS{
+.container-fluid{
     text-align: center;
     font-style:normal ;
     margin-top: 0.1rem ;
     margin-bottom: 1rem;
-    
 }
 
+.colorFondoapply{
+    background-color: #EF476F;
+    text-align:left;
+    font-size: 18px;
 
+}
 .fotoPasion{
     background-position: center;
     width: 50rem;
@@ -178,27 +181,24 @@ ul li{
 
 
 .copyRight{ 
-    font-size: 1.8rem;
+    font-size: 5px;
     color: white;
     display: block;
     display:flex;
     justify-content: end;
     font-weight: bold;
-    margin:0;
 }
 
 .whatsapp{
     display:flex;
     justify-content: start;
-    width:3rem;
-    height:3rem;
+    width: 50px;
     padding: 1rem;
 }
 .LinkedIn{
     display:flex;
     justify-content: start;
-    width: 3rem;
-    height: 3rem;
+    width: 50px;
     padding: 1rem;
 }
 
@@ -240,8 +240,8 @@ ul li{
     margin: 5rem;
     padding: 0rem ;
 
- }
- 
+}
+
 .fotoPortada{
     background-image:none;
     background-position: center;
@@ -326,23 +326,23 @@ textarea{
 
 /* APPLY FOR AN OPPORTUNITY */
 
-.bodyApply{
-    width: 180rem;
-    height: 180rem;
+
+.card-text{
+    font-size: 10px;
 }
 .principalApply{
     background-color: #EF476F;
     width: 150rem;
     height: 150rem;
 }
-.pruebaTexto{
+.textoForm{
     width: 100rem;
-    font-size: 2rem;    
-    line-height: 1.6;
+    font-family:'Montserrat', sans-serif;
+    line-height:1;
 }
 .formApply{
     width: 140rem;
-    height: 110rem;
+    height: auto;
     margin: auto;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -370,8 +370,8 @@ textarea{
 
 .contenedorPrincipal{
     background-color: #EF476F;
-    width: 148rem;
-    height: 350rem;
+    width: 110vw;
+    height: auto;
     padding: 10px;
   /* Aca voy a incluir una Grilla */
 }
@@ -387,9 +387,9 @@ textarea{
 
 .contenedorPrincipal article{
     background-color: #f8ffe5;
-    width: 140rem;
+    width: 105vw;
     margin: 10px;
-    margin-left: 35px;
+    margin-right: 55px;
     padding: 10px;
     text-align: center;
 }
@@ -433,38 +433,26 @@ article img:hover{
 
   /* RESPONSIVE TAMAÑO CELULAR */
 @media screen and (max-width:500px){
-    body{
-        width: 100%;
-        height: auto;
-    }
-    main h2{
-        text-align: center;
-    }
-    ul li a{
-        font-size: 1rem;
-        flex-direction: column;
-    }
-    .NavPrincipal ul{
-        flex-direction: column;
-        font-size: 0.5rem;
-    }
+    
     .logoCocreative{    
-        width: 10%;
+        width: 70px;
     }
     
     .principalIndex{ 
         background-color: #EF476F;
-        width: 80%;
-        height: auto;
+        width: 100vw;
+        height: 210px;
     }   
         
     .fotoPortada{
-        width: 50%;
-        height: auto;
-        margin: 2px;
+        width: 100vw;
+        height: 150px;
+        padding: 15px;
     }
     .principal__slogan{
-        font-size: 2rem;
+        font-size: 15px;
+        padding: 15px;
+        padding-bottom: 5px;
         margin: 1rem;
     }
     
@@ -482,7 +470,27 @@ article img:hover{
     }
 
     .contenedorPrincipal h2{
-        font-size: 1rem;    
+        font-size: 1rem;
+        justify-content: left;    
+    }
+    .contenedorPrincipal h3{
+        font-size: 1rem;
+        justify-content: left;    
+    }
+    .contenedorPrincipal img{
+        width: 90px;
+        height: 110px;
+    }
+    .contenedorPrincipal p{
+        font-size: 7px;
+        width: 100vw;
+    }
+    .contenedorPrincipal article{
+        background-color: #f8ffe5;
+        width: 100vw;
+    }
+    footer p{
+        font-size: 5px;
     }
     
     }
@@ -497,7 +505,7 @@ main .imagenSteps{
 }
 .NavPrincipal ul{
     flex-direction: column;
-    display: inline;
+    display: inline-block;
     flex-wrap: wrap;
 }
 }
