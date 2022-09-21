@@ -58,6 +58,9 @@ footer{
     background-color: #073B4C;
     padding: 10px
 }
+footer p{
+    font-size: 5px;
+}
 
 .NavPrincipal ul{
     display: flex;
@@ -78,8 +81,8 @@ varias veces se llaman con el #  */
 .container-fluid{
     text-align: center;
     font-style:normal ;
-    margin-top: 0.1rem ;
-    margin-bottom: 1rem;
+    margin:0px;
+    padding: 0px;
 }
 
 .colorFondoapply{
@@ -181,7 +184,7 @@ ul li{
 
 
 .copyRight{ 
-    font-size: 5px;
+    font-size: 15px;
     color: white;
     display: block;
     display:flex;
@@ -378,9 +381,10 @@ textarea{
 
 .contenedorPrincipal h2{
     color: #073B4C;
+    justify-content: right;
 }
 .contenedorPrincipal h3{
-    font-size: 5rem;
+    font-size: 4rem;
     font-style: normal;
     font-family:'Montserrat', sans-serif;
 }
@@ -393,6 +397,11 @@ textarea{
     padding: 10px;
     text-align: center;
 }
+
+.contenedorPrincipal article p{
+    font-size: 15px;
+}
+
 /* .sobreNosotras{
     display: grid;
     grid-template-columns: repeat(2 1fr);
@@ -419,13 +428,15 @@ article img:hover{
 }
 .principalService{
     background-color: #EF476F;
-    width: 150rem;
-    height: 100rem;
+    width: 100vw;
+    height: auto;
 }
 .principal__tituloOS{
     padding: 1rem;
 }
 .imagenSteps{
+    display: flex;
+    justify-content: center;
     width: 90%;
     padding: 1rem 10rem 1rem 7rem;
 }
@@ -482,15 +493,15 @@ article img:hover{
         height: 110px;
     }
     .contenedorPrincipal p{
-        font-size: 7px;
-        width: 100vw;
+        font-size: 5px;
+        width: 90vw;
     }
     .contenedorPrincipal article{
         background-color: #f8ffe5;
         width: 100vw;
     }
     footer p{
-        font-size: 5px;
+        font-size: 3px;
     }
     
     }
