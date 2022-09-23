@@ -1,9 +1,11 @@
+@import "variables";
+@import "mediaqueries";
 @import "aboutus";
 @import "our services";
 @import "contact us";
 @import "index";
 @import "apply";
-@import "mediaqueries";
+
 
 
 
@@ -48,10 +50,11 @@ header{
 footer{
     background-color: #073B4C;
     padding: 10px
-    p{
-        font-size: 5px;
-    }
 }
+p{
+    font-size: 5px;
+    }
+
 .copyRight{ 
     font-size: 15px;
     color: white;

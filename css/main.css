@@ -245,8 +245,10 @@ header {
 
 footer {
   background-color: #073B4C;
-  padding: 10px p;
-    padding-font-size: 5px; }
+  padding: 10px; }
+
+p {
+  font-size: 5px; }
 
 .copyRight {
   font-size: 15px;
