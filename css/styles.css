@@ -7,12 +7,12 @@
 
 /*class porque empieza con un punto*/
 /* de esta forma solamente lo que yo identifico en el html va a estar de este color */
-html{
+/* html{
     font-size: 62.5%;
 }/* esto es para que el REM valga 10px sirve para que se adapte a celular*/
 
 /* todos los H van a tener estas propiedades */
-h1{
+/* h1{
     color:#f8ffe5;
     text-align: center;
     font-family: 'Montserrat', sans-serif;  
@@ -31,36 +31,36 @@ h3{
     color: #073B4C;
     font-style: italic;
     font-weight: 300;
-}
+} */
 
-p{  
+/* p{  
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
     line-height: 1.6;
-}
-.bodyIndex{
+} */
+/* .bodyIndex{
     width: 100vw;
     height: 100vh;
     margin:0;
     padding: 0;
-}
+} */
 
-header{
+/* header{
     width:100%;
     max-width: 1445px;
 }
 
 header ul:hover{
     cursor: pointer;
-}
+} */
 
-footer{
+/* footer{
     background-color: #073B4C;
     padding: 10px
 }
 footer p{
     font-size: 5px;
-}
+} */
 
 .NavPrincipal ul{
     display: flex;
@@ -71,43 +71,38 @@ footer p{
 sino se usan las clases que son para menos porciones y se pueden uilizar 
 varias veces se llaman con el #  */
 
-.logoCocreative{    
+/* .logoCocreative{    
     width: 150px;
     height: auto;
     margin: 1rem;
     padding: 1rem;
-}
+} */
 
-.container-fluid{
+/* .container-fluid{
     text-align: center;
     font-style:normal ;
     margin:0px;
     padding: 0px;
-}
+} */
 
-.colorFondoapply{
+/* .colorFondoapply{
     background-color: #EF476F;
     text-align:left;
     font-size: 18px;
 
-}
-.fotoPasion{
-    background-position: center;
-    width: 50rem;
-    height:40rem;
-}
+} */
 
-ul li{
+/* ul li{
     display: inline;
     padding: 1rem 1rem;
     text-align: right;
     font-family:'Montserrat', sans-serif;
     font-size: 1.5rem;
-}
+} */
 
-.NavPrincipal ul li{
+/* .NavPrincipal ul li{
     background-color: #f8ffe5;
-}
+} */
 
 .definicionPlandeaccion{
     font-family:'Montserrat', sans-serif;
@@ -151,7 +146,7 @@ ul li{
     margin: 300px;
 } */ 
 
-.fotoMagui{
+/* .fotoMagui{
     display: flex;
     justify-content: start;
     background-color: white;
@@ -179,20 +174,20 @@ ul li{
     height: 35rem;
     padding: 1rem;
     margin: 2.5rem;
-}
+} */
 
 
 
-.copyRight{ 
+/* .copyRight{ 
     font-size: 15px;
     color: white;
     display: block;
     display:flex;
     justify-content: end;
     font-weight: bold;
-}
+} */
 
-.whatsapp{
+/* .whatsapp{
     display:flex;
     justify-content: start;
     width: 50px;
@@ -203,12 +198,12 @@ ul li{
     justify-content: start;
     width: 50px;
     padding: 1rem;
-}
+} */
 
 
 /* INDEX */
 /* Grid Layout */
-.contenedorIndex{
+/* .contenedorIndex{
     box-sizing: border-box;
     width: 90%;
     max-width: 2000px;
@@ -252,11 +247,11 @@ ul li{
     height:auto;
     padding: 0rem 2rem 1rem 7rem;
 
-}
+} */
 
 /* CONTACT US */
 
-.bodyContact{
+/* .bodyContact{
     background-image: url(../multimedia/foto4.jpg);
     background-size: 100vw 100vh;
     background-attachment: fixed;
@@ -324,13 +319,13 @@ textarea{
 }
 #botonContact{
     cursor: pointer;
-}
+} */
 
 
 /* APPLY FOR AN OPPORTUNITY */
 
 
-.card-text{
+/* .card-text{
     font-size: 10px;
 }
 .principalApply{
@@ -366,22 +361,20 @@ textarea{
     font-weight: 900;
     font-size: 1.8rem;
     width: 12rem;
-}
+} */
 
 
 /* ABOUT US */
 
-.contenedorPrincipal{
+/* .contenedorPrincipal{
     background-color: #EF476F;
     width: 110vw;
     height: auto;
     padding: 10px;
-  /* Aca voy a incluir una Grilla */
-}
+} */
 
-.contenedorPrincipal h2{
+/* .contenedorPrincipal h2{
     color: #073B4C;
-    justify-content: right;
 }
 .contenedorPrincipal h3{
     font-size: 4rem;
@@ -400,7 +393,7 @@ textarea{
 
 .contenedorPrincipal article p{
     font-size: 15px;
-}
+} */
 
 /* .sobreNosotras{
     display: grid;
@@ -418,7 +411,7 @@ textarea{
 } */
 
 /* OUR SERVICES */
-article img{
+/* article img{
     filter: grayscale(100%);
     transition:all 5s;
 }
@@ -440,7 +433,7 @@ article img:hover{
     width: 90%;
     padding: 1rem 10rem 1rem 7rem;
 }
-
+ */
 
   /* RESPONSIVE TAMAÑO CELULAR */
 @media screen and (max-width:500px){

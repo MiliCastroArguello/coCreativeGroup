@@ -1,0 +1,55 @@
+
+.contenedorPrincipal{
+    background-color: #EF476F;
+    width: 110vw;
+    height: fit-content;
+    padding: 10px;
+    h2{ 
+        color: #073B4C;
+    }
+    h3{
+    font-size: 4rem;
+    font-style: normal;
+    font-family:'Montserrat', sans-serif;
+    }
+    article{
+    background-color: #f8ffe5;
+    width: 105vw;
+    margin: 10px;
+    margin-right: 55px;
+    padding: 10px;
+    text-align: center;
+        p{
+    font-size: 15px;
+}
+}
+}
+.fotoMagui{
+    display: flex;
+    justify-content: start;
+    background-color: white;
+    width: 30rem;
+    height: 35rem;
+    padding: 1rem;
+    margin: 2.5rem;
+}
+
+.fotoMili{
+    display: flex;
+    justify-content: start;
+    background-color: white;
+    width: 30rem;
+    height: 35rem;
+    padding: 1rem;
+    margin: 2.5rem;
+}
+
+.fotoEuge{
+    display: flex;
+    justify-content: start;
+    background-color: white;
+    width: 30rem;
+    height: 35rem;
+    padding: 1rem;
+    margin: 2.5rem;
+}

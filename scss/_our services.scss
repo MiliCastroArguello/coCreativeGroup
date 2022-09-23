@@ -1,0 +1,22 @@
+article img{
+    filter: grayscale(100%);
+    transition:all 5s;
+}
+article img:hover{
+    margin: 20px;
+    filter: none; 
+}
+.principalService{
+    background-color: #EF476F;
+    width: 100vw;
+    height: auto;
+}
+.principal__tituloOS{
+    padding: 1rem;
+}
+.imagenSteps{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    padding: 1rem 10rem 1rem 7rem;
+}

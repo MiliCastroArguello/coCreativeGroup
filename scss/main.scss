@@ -1,0 +1,86 @@
+@import "aboutus";
+@import "our services";
+@import "contact us";
+@import "index";
+@import "apply";
+@import "mediaqueries";
+
+
+
+html{
+    font-size: 62.5%;
+}/* esto es para que el REM valga 10px sirve para que se adapte a celular*/
+
+/* todos los H van a tener estas propiedades */
+h1{
+    color:#f8ffe5;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;  
+    font-weight: bold;  
+    font-size: 4rem;
+}
+
+h2{ 
+    color:#f8ffe5;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 4rem;
+    text-align: center;
+}
+
+h3{ 
+    color: #073B4C;
+    font-style: italic;
+    font-weight: 300;
+}
+
+p{  
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    line-height: 1.6;
+}
+header{
+    width:100%;
+    max-width: 1445px;
+    ul:hover{
+        cursor: pointer;
+    }
+}
+footer{
+    background-color: #073B4C;
+    padding: 10px
+    p{
+        font-size: 5px;
+    }
+}
+.copyRight{ 
+    font-size: 15px;
+    color: white;
+    display: block;
+    display:flex;
+    justify-content: end;
+    font-weight: bold;
+}
+.whatsapp{
+    display:flex;
+    justify-content: start;
+    width: 50px;
+    padding: 1rem;
+}
+.LinkedIn{
+    display:flex;
+    justify-content: start;
+    width: 50px;
+    padding: 1rem;
+}
+.logoCocreative{    
+    width: 150px;
+    height: auto;
+    margin: 1rem;
+    padding: 1rem;
+}
+.container-fluid{
+    text-align: center;
+    font-style:normal ;
+    margin:0px;
+    padding: 0px;
+}
