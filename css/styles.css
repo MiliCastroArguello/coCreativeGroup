@@ -62,10 +62,7 @@ footer p{
     font-size: 5px;
 } */
 
-.NavPrincipal ul{
-    display: flex;
-    justify-content: flex-end;
-}
+
 
 /* ID se utiliza para porciones grandes, NO puede haber 2 iguales
 sino se usan las clases que son para menos porciones y se pueden uilizar 
@@ -104,9 +101,7 @@ varias veces se llaman con el #  */
     background-color: #f8ffe5;
 } */
 
-.definicionPlandeaccion{
-    font-family:'Montserrat', sans-serif;
-}
+
 
 .ourMision{
     font-size: 2.5rem;
@@ -436,7 +431,7 @@ article img:hover{
  */
 
   /* RESPONSIVE TAMAÑO CELULAR */
-@media screen and (max-width:500px){
+/* @media screen and (max-width:500px){
     
     .logoCocreative{    
         width: 70px;
@@ -497,9 +492,9 @@ article img:hover{
         font-size: 3px;
     }
     
-    }
+    } */
 /* RESPONSIVE CEL OUR SERVICES */
-@media screen and (max-width:500px){
+/* @media screen and (max-width:500px){
 main .principal__tituloOS{
     font-size: 1rem;
     }
@@ -512,4 +507,4 @@ main .imagenSteps{
     display: inline-block;
     flex-wrap: wrap;
 }
-}
+} */
