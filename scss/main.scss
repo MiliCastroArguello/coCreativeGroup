@@ -23,36 +23,70 @@ h1{
 h2{ 
     color:#f8ffe5;
     font-family: 'Montserrat', sans-serif; 
-    font-size: 4rem;
     text-align: center;
+    font-weight: bold;
 }
 
 h3{ 
     color: #073B4C;
     font-style: italic;
-    font-weight: 300;
+    font-weight: bold;
 }
 
 p{  
     font-family: 'Montserrat', sans-serif;
-    font-size: 2rem;
+    font-size: 15px;
     line-height: 1.6;
 }
+
 header{
-    width:100%;
-    max-width: 1445px;
+    width:100vw;
+    height: fit-content;
+    font-size: 15px;
+    ul{
+        list-style: none;
+        font-size: 0;
+        display: none;
+        li{
+            display: inline-block;
+            width: 30%;
+            position: relative;
+            font-size: 10px;
+        }
+    }
     ul:hover{
         cursor: pointer;
+        color: #073B4C;
+        ul{
+            position: absolute;
+            display: none;
+            li{
+                display: block;
+            }
+        }
     }
 }
+ul li:hover ul{
+    display: block;
+}
+
 footer{
+    display: flex;
+    width: 100vw;
     background-color: #073B4C;
     padding: 10px
 }
 p{
-    font-size: 5px;
+    font-size: 15px;
     }
 
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    font-family:'Montserrat', sans-serif;
+    font-size: 15px;
+}
 .copyRight{ 
     font-size: 15px;
     color: white;
@@ -80,7 +114,7 @@ p{
     padding: 1rem;
 }
 .container-fluid{
-    text-align: center;
+    text-align: right;
     font-style:normal ;
     margin:0px;
     padding: 0px;

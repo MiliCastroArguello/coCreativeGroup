@@ -1,5 +1,7 @@
 
 .contenedorPrincipal{
+    display: flex;
+    flex-wrap: wrap;
     background-color: #EF476F;
     width: 110vw;
     height: fit-content;
@@ -9,9 +11,9 @@
     }
     
     h3{
-    font-size: 4rem;
     font-style: normal;
     font-family:'Montserrat', sans-serif;
+    margin: 10px;
     }
     article{
     background-color: #f8ffe5;
@@ -21,7 +23,7 @@
     text-align: center;
         p{
     font-size: 15px;
-}
+    }
 }
 }
 .fotoMagui{
