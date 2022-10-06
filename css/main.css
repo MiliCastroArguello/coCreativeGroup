@@ -153,14 +153,24 @@ article {
   padding: 1rem;
   margin: 2.5rem; }
 
-article img {
+.fotoMagui {
   filter: grayscale(100%);
   transition: all 5s; }
-
-article img:hover {
+.fotoMagui:hover {
   margin: 20px;
   filter: none; }
-
+.fotoMili {
+    filter: grayscale(100%);
+    transition: all 5s; }
+.fotoMili:hover {
+    margin: 20px;
+    filter: none; } 
+.fotoEuge {
+      filter: grayscale(100%);
+      transition: all 5s; }
+.fotoEuge:hover {
+      margin: 20px;
+      filter: none; }
 .principalService {
   background-color: #EF476F;
   width: 100vw;
