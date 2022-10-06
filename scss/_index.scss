@@ -1,23 +1,6 @@
-/* .contenedorIndex{
-    box-sizing: border-box;
-    width: 90%;
-    max-width: 2000px;
-    margin:1rem auto;
-    display: grid;
-    gap: 1.6rem;
-    grid-template-columns: 1fr;
-    grid-template-rows: 3 (1fr);
-    img{
-        grid-area: "foto-Portada";
-    }
-    H2{
-        grid-area:"Slogan-Portada";
-    }
-} */
-
 .principalIndex{
     background-color: #EF476F;
-    width:100 wv;
+    width: 100vw;
     max-width: fit-content;
 }
 .principal__slogan{

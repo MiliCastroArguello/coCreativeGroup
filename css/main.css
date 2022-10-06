@@ -76,25 +76,9 @@ article {
       display: inline-block;
       flex-wrap: wrap; } }
 
-/* .contenedorIndex{
-    box-sizing: border-box;
-    width: 90%;
-    max-width: 2000px;
-    margin:1rem auto;
-    display: grid;
-    gap: 1.6rem;
-    grid-template-columns: 1fr;
-    grid-template-rows: 3 (1fr);
-    img{
-        grid-area: "foto-Portada";
-    }
-    H2{
-        grid-area:"Slogan-Portada";
-    }
-} */
 .principalIndex {
   background-color: #EF476F;
-  width: 100 wv;
+  width: 100vw;
   max-width: fit-content; }
 
 .principal__slogan {
@@ -119,7 +103,8 @@ article {
 
 .contenedorPrincipal {
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
   background-color: #EF476F;
   width: 110vw;
   height: fit-content;
@@ -130,13 +115,15 @@ article {
     font-style: normal;
     font-family: 'Montserrat', sans-serif;
     margin: 10px; }
-  .contenedorPrincipal article {
+  .contenedorPrincipal p {
+    color: #f8ffe5; }
+  .contenedorPrincipal .tituloAbout {
     background-color: #f8ffe5;
     width: 100vw;
-    margin: 1px;
+    margin: 15px;
     padding: 1px;
     text-align: center; }
-    .contenedorPrincipal article p {
+    .contenedorPrincipal .tituloAbout p {
       font-size: 15px; }
 
 .fotoMagui {
@@ -324,6 +311,9 @@ header {
   width: 100vw;
   height: fit-content;
   font-size: 15px; }
+  header nav {
+    width: 100vw;
+    height: min-content; }
   header ul {
     list-style: none;
     font-size: 0;
@@ -354,9 +344,11 @@ footer {
 p {
   font-size: 15px; }
 
-.navbar {
+nav {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-end;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
   font-size: 15px; }

@@ -1,7 +1,8 @@
 
 .contenedorPrincipal{
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
     background-color: #EF476F;
     width: 110vw;
     height: fit-content;
@@ -9,22 +10,24 @@
     h2{ 
         color: #073B4C;
     }
-    
     h3{
     font-style: normal;
     font-family:'Montserrat', sans-serif;
     margin: 10px;
     }
-    article{
+    p{
+        color: #f8ffe5;
+    }  
+    .tituloAbout{
     background-color: #f8ffe5;
     width: 100vw;
-    margin: 1px;
+    margin: 15px;
     padding: 1px;
     text-align: center;
         p{
     font-size: 15px;
+    }   
     }
-}
 }
 .fotoMagui{
     display: flex;
