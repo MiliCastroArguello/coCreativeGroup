@@ -2,7 +2,7 @@
     background-image: url(../multimedia/foto4.jpg);
     background-position: 100vw;
     background-size: 100vw;
-    background-attachment: fixed;
+    background-attachment: scroll;
     margin: 0;
     width: 100vw;
         a{
@@ -16,12 +16,12 @@
 .principalContact{
     background-color: #EF476F;
     font-family:'Montserrat', sans-serif;
-    width: 80vw;
-    height: 30rem;
+    width: fit-content;
+    height: fit-content;
     margin: 5rem 5rem;
     position: relative;
     padding-bottom: 2rem;
-    min-height: 100vh;
+    
 }
 
 .legendFormulario{

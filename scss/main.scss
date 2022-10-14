@@ -17,7 +17,6 @@ h1{
     text-align: center;
     font-family: 'Montserrat', sans-serif;  
     font-weight: bold;  
-    font-size: 4rem;
 }
 
 h2{ 
@@ -29,7 +28,8 @@ h2{
 
 h3{ 
     color: #073B4C;
-    font-style: italic;
+    font-family: 'Montserrat', sans-serif;  
+    font-style: bold;
     font-weight: bold;
 }
 
@@ -43,10 +43,7 @@ header{
     width:100vw;
     height: fit-content;
     font-size: 15px;
-    nav{
-        width: 100vw;
-        height: min-content;
-    }
+   
     ul{
         list-style: none;
         font-size: 0;
@@ -54,7 +51,7 @@ header{
         li{
             display: inline-block;
             width: 30%;
-            position: relative;
+            position: satic;
             font-size: 10px;
         }
     }
@@ -75,36 +72,29 @@ ul li:hover ul{
 }
 
 footer{
-    display: flex;
     width: 100vw;
     background-color: #073B4C;
-    padding: 10px
 }
 p{
     font-size: 15px;
     }
 
-nav{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction:row;
-    justify-content:flex-end;
-
-    padding: 0;
+navbar-toggler{
     font-family:'Montserrat', sans-serif;
     font-size: 15px;
 }
 
 .copyRight{ 
-    font-size: 15px;
+    font-size: 13px;
     color: white;
-    display: block;
+    display: inline-block;
     display:flex;
     justify-content: end;
     font-weight: bold;
 }
 .whatsapp{
     display:flex;
+    display: inline-block;
     justify-content: start;
     width: 50px;
     padding: 1rem;
@@ -121,9 +111,7 @@ nav{
     margin: 1rem;
     padding: 1rem;
 }
-.container-fluid{
-    text-align: right;
-    font-style:normal ;
-    margin:0px;
-    padding: 0px;
+
+.card-link{
+    font-size: 10px;
 }

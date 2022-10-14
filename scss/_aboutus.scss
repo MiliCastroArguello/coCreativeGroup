@@ -1,12 +1,10 @@
 
 .contenedorPrincipal{
     display: flex;
-    flex-flow: column wrap;
-    justify-content: space-evenly;
     background-color: #EF476F;
-    width: 110vw;
+    width: 100vw;
     height: fit-content;
-    padding: 10px;
+    padding: 0;
     h2{ 
         color: #073B4C;
     }
@@ -17,12 +15,17 @@
     }
     p{
         color: #f8ffe5;
+        font-size: 15px;
+        margin: 15px;
     }  
+    div{
+        margin-top: 10px;
+    }
     .tituloAbout{
     background-color: #f8ffe5;
-    width: 100vw;
-    margin: 15px;
-    padding: 1px;
+    width: 50vw;
+    margin: 0px;
+    padding: 15px;
     text-align: center;
         p{
     font-size: 15px;
@@ -51,10 +54,11 @@
 
 .fotoEuge{
     display: flex;
-    justify-content: start;
+    justify-content: end;
     background-color: white;
     width: 30rem;
     height: 35rem;
     padding: 1rem;
     margin: 2.5rem;
 }
+

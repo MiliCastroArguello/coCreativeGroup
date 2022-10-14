@@ -1,9 +1,9 @@
 @media screen and (max-width:500px){
     
     .logoCocreative{    
-        width: 70px;
+        width: 50px;
     }
-    
+  
     .principalIndex{ 
         background-color: #EF476F;
         width: 100vw;
@@ -22,6 +22,20 @@
         margin: 1rem;
     }
     
+    div select{
+        font-size: 10px;
+        width: 150px;
+    }
+    .colorFondoapply{
+        font-size: 10px;
+    }
+    label{
+        font-size: 10px;
+    }
+    
+    }
+        
+    
     .copyRight{
         font-size: small;
     }
@@ -38,14 +52,7 @@
     .contenedorPrincipal p{
         font-size: 5px;
         width: 90vw;
-        article{
-            background-color: #f8ffe5;
-            width: 100vw;
-        }
-        img{
-            width: 90px;
-            height: 110px;
-        }
+              
         h3{
             font-size: 1rem;
             justify-content: left;    
@@ -55,28 +62,20 @@
             justify-content: left;    
         }
     }
-    
     footer p{
         font-size: 3px;
     }
     
-    }
+    
+
 
 /* RESPONSIVE CEL OUR SERVICES */
 @media screen and (max-width:500px){
     main .principal__tituloOS{
-        font-size: 1rem;
-        .imagenSteps{
-            width: 40%;
-            height: auto;
-        }
-    .NavPrincipal ul{
-        flex-direction: column;
-        display: inline-block;
-        flex-wrap: wrap;
+        font-size: 50px;           
     }
     }
-    }
+    
 
 
 

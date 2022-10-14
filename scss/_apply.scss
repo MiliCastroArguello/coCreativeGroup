@@ -7,13 +7,16 @@
     height: 150rem;
 }
 .textoForm{
-    width: 100rem;
+    width: 60vw;
     font-family:'Montserrat', sans-serif;
     line-height:1;
 }
+.textoComment{
+    width: 60vw;
+}
 .formApply{
-    width: 140rem;
-    height: auto;
+    width: 70vw;
+    height: fit-content;
     margin: auto;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -21,6 +24,7 @@
     padding: 1rem;
     box-sizing: border-box;
     border-radius: 1rem;
+    font-size: 25px;
 }
 #botonApply{
     cursor: pointer;
@@ -37,7 +41,7 @@
 }
 .colorFondoapply{
     background-color: #EF476F;
-    text-align:left;
-    font-size: 18px;
+    
+
 
 }
