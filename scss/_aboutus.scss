@@ -1,12 +1,22 @@
 
+.mainAbout{
+    background-image: url(../multimedia/about-us-sign.jpg);
+    background-position: 100vw;
+    background-size: 100vw;
+    margin: 0px;
+    height: fit-content;
+}
 .contenedorPrincipal{
     display: flex;
-    background-color: #EF476F;
-    width: 100vw;
+    flex-wrap: wrap;
+    justify-content: space-between;
+/*     background-color: #EF476F;
+ */ width: 100vw;
     height: fit-content;
     padding: 0;
     h2{ 
         color: #073B4C;
+        font-size: 25px;
     }
     h3{
     font-style: normal;
@@ -21,44 +31,6 @@
     div{
         margin-top: 10px;
     }
-    .tituloAbout{
-    background-color: #f8ffe5;
-    width: 50vw;
-    margin: 0px;
-    padding: 15px;
-    text-align: center;
-        p{
-    font-size: 15px;
-    }   
-    }
-}
-.fotoMagui{
-    display: flex;
-    justify-content: start;
-    background-color: white;
-    width: 30rem;
-    height: 35rem;
-    padding: 1rem;
-    margin: 2.5rem;
-}
-
-.fotoMili{
-    display: flex;
-    justify-content: start;
-    background-color: white;
-    width: 30rem;
-    height: 35rem;
-    padding: 1rem;
-    margin: 2.5rem;
-}
-
-.fotoEuge{
-    display: flex;
-    justify-content: end;
-    background-color: white;
-    width: 30rem;
-    height: 35rem;
-    padding: 1rem;
-    margin: 2.5rem;
+    
 }
 

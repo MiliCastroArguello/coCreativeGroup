@@ -1,26 +1,19 @@
-.bodyContact{
+.mainContact{
     background-image: url(../multimedia/foto4.jpg);
     background-position: 100vw;
     background-size: 100vw;
-    background-attachment: scroll;
-    margin: 0;
+    margin: 0px;
     width: 100vw;
-        a{
-            font-size: 15px;
-        }
-        ul li:hover ul{
-            display: block;
-        }
 }
 
-.principalContact{
+.principalContact{    
     background-color: #EF476F;
     font-family:'Montserrat', sans-serif;
     width: fit-content;
     height: fit-content;
-    margin: 5rem 5rem;
+    margin:0px 150px;
     position: relative;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     
 }
 

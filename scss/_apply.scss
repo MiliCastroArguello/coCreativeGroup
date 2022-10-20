@@ -3,16 +3,18 @@
 }
 .principalApply{
     background-color: #EF476F;
-    width: 150rem;
-    height: 150rem;
+    width: 99vw;
+    height: fit-content;
 }
 .textoForm{
     width: 60vw;
     font-family:'Montserrat', sans-serif;
     line-height:1;
+    font-size: 15px;
 }
 .textoComment{
     width: 60vw;
+    font-size: 18px;
 }
 .formApply{
     width: 70vw;
@@ -41,7 +43,8 @@
 }
 .colorFondoapply{
     background-color: #EF476F;
-    
+}
 
-
+.studylevel{
+    line-height: 1.6;
 }

@@ -1,38 +1,30 @@
-.fotoMagui{
-    filter: grayscale(100%);
-    transition:all 5s;
-}
-.fotoMagui:hover{
-    margin: 20px;
-    filter: none; 
-}
 
-.fotoMili{
-    filter: grayscale(100%);
-    transition:all 5s;
-}
-.fotoMili:hover{
-    margin: 20px;
-    filter: none; 
-}
-
-.fotoEuge{
-    filter: grayscale(100%);
-    transition:all 5s;
-}
-.fotoEuge:hover{
-    margin: 20px;
-    filter: none; 
-}
 .principalService{
     background-color: #EF476F;
     width: 100vw;
-    height: auto;
+    height: fit-content;
+}
+.fotoBusqueda{
+    width: 150px;
+    height: 150px;
+    padding: 20px;
 }
 
-.imagenSteps{
+.articleService{
     display: flex;
-    justify-content: center;
-    width: 90%;
-    padding: 1rem 10rem 1rem 7rem;
+    display: block;
+    width: 80%;
+    height: auto;
+    padding: 15px;
+    
+}
+
+.fontTitleservice{
+    color: antiquewhite;
+    font-size: 30px;
+}
+
+.fontParragraphservice{
+    color:antiquewhite;
+    font-size: 20px;
 }

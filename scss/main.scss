@@ -5,16 +5,20 @@
 @import "our services";
 @import "apply";
 @import "contact us";
+@import "whoweare";
 
 
 html{
     font-size: 62.5%;
+    padding: 0px;
+    margin: 0px;
 }/* esto es para que el REM valga 10px sirve para que se adapte a celular*/
 
 /* todos los H van a tener estas propiedades */
 h1{
     color:#f8ffe5;
     text-align: center;
+    font-size: 40px;
     font-family: 'Montserrat', sans-serif;  
     font-weight: bold;  
 }
@@ -22,6 +26,7 @@ h1{
 h2{ 
     color:#f8ffe5;
     font-family: 'Montserrat', sans-serif; 
+    font-size: 35px;
     text-align: center;
     font-weight: bold;
 }
@@ -42,17 +47,20 @@ p{
 header{
     width:100vw;
     height: fit-content;
-    font-size: 15px;
-   
-    ul{
+    padding: 0;
+    margin: 0;
+    
+     ul{
         list-style: none;
         font-size: 0;
+        width: 60vw;
         display: none;
         li{
             display: inline-block;
-            width: 30%;
-            position: satic;
-            font-size: 10px;
+            width: 40vw;
+            text-align: right;
+            position:static;
+            font-size: 15px;
         }
     }
     ul:hover{
@@ -60,37 +68,48 @@ header{
         color: #073B4C;
         ul{
             position: absolute;
+            font-size: 15px;
             display: none;
             li{
                 display: block;
-            }
+                text-align: left;
         }
     }
+}
 }
 ul li:hover ul{
     display: block;
 }
 
 footer{
-    width: 100vw;
     background-color: #073B4C;
-}
+    height: 25%;
+    width: 100vw;
+    margin: 0px;
 p{
     font-size: 15px;
     }
+}
 
-navbar-toggler{
+/* .navbar-toggler{
     font-family:'Montserrat', sans-serif;
     font-size: 15px;
+    display: inline-flex;
+    flex-basis: initial;
 }
+.navbar-brand{
+    padding: 0%;
+    margin: 0%;
+} */
+
+
 
 .copyRight{ 
     font-size: 13px;
     color: white;
-    display: inline-block;
     display:flex;
-    justify-content: end;
-    font-weight: bold;
+    justify-content:right;
+    margin-right: 15px;
 }
 .whatsapp{
     display:flex;
@@ -115,3 +134,4 @@ navbar-toggler{
 .card-link{
     font-size: 10px;
 }
+

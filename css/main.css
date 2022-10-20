@@ -22,59 +22,83 @@ article {
 .principal__tituloOS {
   color: white; }
 
-@media screen and (max-width: 500px) {
-  .logoCocreative {
-    width: 50px; }
-  .principalIndex {
-    background-color: #EF476F;
-    width: 100vw;
-    height: 210px; }
-  .fotoPortada {
-    width: 100vw;
-    height: 150px;
-    padding: 15px; }
-  .principal__slogan {
-    font-size: 15px;
-    padding: 15px;
-    padding-bottom: 5px;
-    margin: 1rem; }
-  div select {
-    font-size: 10px;
-    width: 150px; }
-  .colorFondoapply {
-    font-size: 10px; }
-  label {
-    font-size: 10px; } }
+/* @media screen and (max-width:500px){
+    
+    .logoCocreative{    
+        width: 50px;
+    }
+  
+    .principalIndex{ 
+        background-color: #EF476F;
+        width: 100vw;
+        height: 210px;
+    }   
+        
+    .fotoPortada{
+        width: 100vw;
+        height: 150px;
+        padding: 15px;
+    }
+    .principal__slogan{
+        font-size: 15px;
+        padding: 15px;
+        padding-bottom: 5px;
+        margin: 1rem;
+    }
+    
+    div select{
+        font-size: 10px;
+        width: 150px;
+    }
+    .colorFondoapply{
+        font-size: 10px;
+    }
+    label{
+        font-size: 10px;
+    }
+    
+    }
+        
+    
+    .copyRight{
+        font-size: small;
+    }
 
-.copyRight {
-  font-size: small; }
+    .whatsapp{
+        width:2rem;
+        height:2rem;
+    }
+    .LinkedIn{
+        width:2rem;
+        height:2rem;
+    }
 
-.whatsapp {
-  width: 2rem;
-  height: 2rem; }
+    .contenedorPrincipal p{
+        font-size: 5px;
+        width: 90vw;
+              
+        h3{
+            font-size: 1rem;
+            justify-content: left;    
+        }
+        h2{
+            font-size: 1rem;
+            justify-content: left;    
+        }
+    }
+    footer p{
+        font-size: 3px;
+    }
+    
+    
 
-.LinkedIn {
-  width: 2rem;
-  height: 2rem; }
-
-.contenedorPrincipal p {
-  font-size: 5px;
-  width: 90vw; }
-  .contenedorPrincipal p h3 {
-    font-size: 1rem;
-    justify-content: left; }
-  .contenedorPrincipal p h2 {
-    font-size: 1rem;
-    justify-content: left; }
-
-footer p {
-  font-size: 3px; }
 
 /* RESPONSIVE CEL OUR SERVICES */
-@media screen and (max-width: 500px) {
-  main .principal__tituloOS {
-    font-size: 50px; } }
-
+/* @media screen and (max-width:500px){
+    main .principal__tituloOS{
+        font-size: 50px;           
+    }
+    } */
 .principalIndex {
   background-color: #EF476F;
   width: 100vw;
@@ -83,31 +107,41 @@ footer p {
 .principal__slogan {
   color: #f8ffe5;
   text-align: center;
-  font: italic;
-  margin: 5rem;
-  padding: 0rem; }
+  margin: 2rem;
+  padding: 1rem; }
 
 .fotoPortada {
   background-image: none;
   background-position: center;
-  width: 90%;
+  width: 95%;
   height: auto;
-  padding: 0rem 2rem 1rem 7rem; }
+  margin: 25px; }
 
-.bodyIndex {
+body {
   width: 100vw;
   height: 100vh;
-  margin: 0;
-  padding: 0; }
+  margin: 0px;
+  padding: 0px; }
+
+.mainAbout {
+  background-image: url(../multimedia/about-us-sign.jpg);
+  background-position: 100vw;
+  background-size: 100vw;
+  margin: 0px;
+  height: fit-content; }
 
 .contenedorPrincipal {
   display: flex;
-  background-color: #EF476F;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /*     background-color: #EF476F;
+ */
   width: 100vw;
   height: fit-content;
   padding: 0; }
   .contenedorPrincipal h2 {
-    color: #073B4C; }
+    color: #073B4C;
+    font-size: 25px; }
   .contenedorPrincipal h3 {
     font-style: normal;
     font-family: 'Montserrat', sans-serif;
@@ -118,14 +152,161 @@ footer p {
     margin: 15px; }
   .contenedorPrincipal div {
     margin-top: 10px; }
-  .contenedorPrincipal .tituloAbout {
-    background-color: #f8ffe5;
-    width: 50vw;
-    margin: 0px;
-    padding: 15px;
-    text-align: center; }
-    .contenedorPrincipal .tituloAbout p {
-      font-size: 15px; }
+
+.principalService {
+  background-color: #EF476F;
+  width: 100vw;
+  height: fit-content; }
+
+.fotoBusqueda {
+  width: 150px;
+  height: 150px;
+  padding: 20px; }
+
+.articleService {
+  display: flex;
+  display: block;
+  width: 80%;
+  height: auto;
+  padding: 15px; }
+
+.fontTitleservice {
+  color: antiquewhite;
+  font-size: 30px; }
+
+.fontParragraphservice {
+  color: antiquewhite;
+  font-size: 20px; }
+
+.card-text {
+  font-size: 10px; }
+
+.principalApply {
+  background-color: #EF476F;
+  width: 99vw;
+  height: fit-content; }
+
+.textoForm {
+  width: 60vw;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1;
+  font-size: 15px; }
+
+.textoComment {
+  width: 60vw;
+  font-size: 18px; }
+
+.formApply {
+  width: 70vw;
+  height: fit-content;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background: #f4beca;
+  padding: 1rem;
+  box-sizing: border-box;
+  border-radius: 1rem;
+  font-size: 25px; }
+
+#botonApply {
+  cursor: pointer; }
+
+#botonApply {
+  background-color: white;
+  color: #EF476F;
+  text-align: center;
+  padding: 2rem;
+  font-weight: 900;
+  font-size: 1.8rem;
+  width: 12rem; }
+
+.colorFondoapply {
+  background-color: #EF476F; }
+
+.studylevel {
+  line-height: 1.6; }
+
+.mainContact {
+  background-image: url(../multimedia/foto4.jpg);
+  background-position: 100vw;
+  background-size: 100vw;
+  margin: 0px;
+  width: 100vw; }
+
+.principalContact, .principalContact--apply {
+  background-color: #EF476F;
+  font-family: 'Montserrat', sans-serif;
+  width: fit-content;
+  height: fit-content;
+  margin: 0px 150px;
+  position: relative;
+  padding-bottom: 1rem; }
+
+.legendFormulario {
+  color: #f8ffe5;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1rem; }
+
+.formularioContacto {
+  font-size: 1.5rem;
+  color: #f8ffe5;
+  line-height: 2; }
+
+.formContact {
+  width: 70vw;
+  height: fit-content;
+  margin: 0;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background: #f4beca;
+  padding: 1rem;
+  box-sizing: border-box;
+  border-radius: 1rem; }
+
+input, textarea {
+  width: 100%;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  border: none; }
+
+textarea {
+  min-height: 10rem; }
+
+#botonContact {
+  background-color: white;
+  color: #EF476F;
+  text-align: center;
+  padding: 2rem;
+  font-weight: 900;
+  font-size: 1.8rem;
+  width: 12rem; }
+
+#botonContact {
+  cursor: pointer; }
+
+.nosotras {
+  background-color: #EF476F; }
+
+.tituloAbout {
+  background-color: #f8ffe5;
+  width: 100vw;
+  margin: 0px;
+  padding: 15px;
+  text-align: center; }
+  .tituloAbout h2 {
+    font-size: 35px;
+    color: #EF476F; }
+
+.tituloUS {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 15px;
+  padding-left: 0px; }
+
+.textoUS {
+  text-align: center; }
 
 .fotoMagui {
   display: flex;
@@ -178,139 +359,24 @@ footer p {
   margin: 20px;
   filter: none; }
 
-.principalService {
-  background-color: #EF476F;
-  width: 100vw;
-  height: auto; }
-
-.imagenSteps {
-  display: flex;
-  justify-content: center;
-  width: 90%;
-  padding: 1rem 10rem 1rem 7rem; }
-
-.card-text {
-  font-size: 10px; }
-
-.principalApply {
-  background-color: #EF476F;
-  width: 150rem;
-  height: 150rem; }
-
-.textoForm {
-  width: 60vw;
-  font-family: 'Montserrat', sans-serif;
-  line-height: 1; }
-
-.textoComment {
-  width: 60vw; }
-
-.formApply {
-  width: 70vw;
-  height: fit-content;
-  margin: auto;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  background: #f4beca;
-  padding: 1rem;
-  box-sizing: border-box;
-  border-radius: 1rem;
-  font-size: 25px; }
-
-#botonApply {
-  cursor: pointer; }
-
-#botonApply {
-  background-color: white;
-  color: #EF476F;
-  text-align: center;
-  padding: 2rem;
-  font-weight: 900;
-  font-size: 1.8rem;
-  width: 12rem; }
-
-.colorFondoapply {
-  background-color: #EF476F; }
-
-.bodyContact {
-  background-image: url(../multimedia/foto4.jpg);
-  background-position: 100vw;
-  background-size: 100vw;
-  background-attachment: scroll;
-  margin: 0;
-  width: 100vw; }
-  .bodyContact a {
-    font-size: 15px; }
-  .bodyContact ul li:hover ul {
-    display: block; }
-
-.principalContact, .principalContact--apply {
-  background-color: #EF476F;
-  font-family: 'Montserrat', sans-serif;
-  width: fit-content;
-  height: fit-content;
-  margin: 5rem 5rem;
-  position: relative;
-  padding-bottom: 2rem; }
-
-.legendFormulario {
-  color: #f8ffe5;
-  font-size: 2rem;
-  font-weight: bold;
-  padding: 1rem; }
-
-.formularioContacto {
-  font-size: 1.5rem;
-  color: #f8ffe5;
-  line-height: 2; }
-
-.formContact {
-  width: 70vw;
-  height: fit-content;
-  margin: 0;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  background: #f4beca;
-  padding: 1rem;
-  box-sizing: border-box;
-  border-radius: 1rem; }
-
-input, textarea {
-  width: 100%;
-  margin-bottom: 2rem;
-  padding: 1rem;
-  box-sizing: border-box;
-  border: none; }
-
-textarea {
-  min-height: 10rem; }
-
-#botonContact {
-  background-color: white;
-  color: #EF476F;
-  text-align: center;
-  padding: 2rem;
-  font-weight: 900;
-  font-size: 1.8rem;
-  width: 12rem; }
-
-#botonContact {
-  cursor: pointer; }
-
 html {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  padding: 0px;
+  margin: 0px; }
 
 /* esto es para que el REM valga 10px sirve para que se adapte a celular*/
 /* todos los H van a tener estas propiedades */
 h1 {
   color: #f8ffe5;
   text-align: center;
+  font-size: 40px;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold; }
 
 h2 {
   color: #f8ffe5;
   font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
   text-align: center;
   font-weight: bold; }
 
@@ -328,46 +394,57 @@ p {
 header {
   width: 100vw;
   height: fit-content;
-  font-size: 15px; }
+  padding: 0;
+  margin: 0; }
   header ul {
     list-style: none;
     font-size: 0;
+    width: 60vw;
     display: none; }
     header ul li {
       display: inline-block;
-      width: 30%;
-      position: satic;
-      font-size: 10px; }
+      width: 40vw;
+      text-align: right;
+      position: static;
+      font-size: 15px; }
   header ul:hover {
     cursor: pointer;
     color: #073B4C; }
     header ul:hover ul {
       position: absolute;
+      font-size: 15px;
       display: none; }
       header ul:hover ul li {
-        display: block; }
+        display: block;
+        text-align: left; }
 
 ul li:hover ul {
   display: block; }
 
 footer {
+  background-color: #073B4C;
+  height: 25%;
   width: 100vw;
-  background-color: #073B4C; }
+  margin: 0px; }
+  footer p {
+    font-size: 15px; }
 
-p {
-  font-size: 15px; }
-
-navbar-toggler {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 15px; }
-
+/* .navbar-toggler{
+    font-family:'Montserrat', sans-serif;
+    font-size: 15px;
+    display: inline-flex;
+    flex-basis: initial;
+}
+.navbar-brand{
+    padding: 0%;
+    margin: 0%;
+} */
 .copyRight {
   font-size: 13px;
   color: white;
-  display: inline-block;
   display: flex;
-  justify-content: end;
-  font-weight: bold; }
+  justify-content: right;
+  margin-right: 15px; }
 
 .whatsapp {
   display: flex;

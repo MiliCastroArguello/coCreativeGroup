@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +11,7 @@
 
 
 <!-- FAVICOM -->
-<title>Apply for an open position</title>
+<title>Apply</title>
 
 <link rel="shortcut icon" href="../multimedia/logoredondo.jpg" type="image/x-icon">
 <!-- CSS only -->
@@ -40,8 +40,7 @@
                           <li class="nav-item">
                             <a href="../pages/about us.html" class="nav-link" href="#">About Us</a>
                             <ul>
-                              <li><a href="../pages/about us.html">Our Principles </a></li>
-                              <li><a href="../pages/about us.html">Our Team</a></li>
+                              <li><a href="../pages/Who we are.html">This is us!</a></li>
                           </ul>
                           </li>
                           <li class="nav-item">
@@ -79,6 +78,15 @@
                         <label for="numero">Phone contact:</label>
                         <input type="numer" name="numero">
                     <!-- RADIO (solo una opcion) -->
+                        <div class="studylevel">
+                        <label for="study level">Study Level?</label>
+                        <select name="study level">
+                        <option value="Undergraduate ">Undergraduate </option>
+                        <option value="Graduate degree">Graduate degree</option>
+                        <option value="Postgraduate / master's degree in progres">Postgraduate / master's degree in progres</option>
+                        <option value="Graduate degree / master's degree">Graduate degree / master's degree</option>
+                        </select> 
+                      </div> 
                         
                         <h3>Areas of interest: </h3>
 
@@ -94,33 +102,25 @@
                         <input type="radio" value="IT" name="areas of interest"> IT
             
                         <input type="radio" value="other" name="areas of interest">
-                        </div>
+                        
 
-                        <!-- MENU DESPLEGABLE -->
-                        <div>
-                        <label for="study level">Study Level?</label>
-                        <select name="study level">
-                            <option value="Undergraduate ">Undergraduate </option>
-                            <option value="Graduate degree">Graduate degree</option>
-                            <option value="Postgraduate / master's degree in progres">Postgraduate / master's degree in progres</option>
-                            <option value="Graduate degree / master's degree">Graduate degree / master's degree</option>
-                                                    
-                        <label for="adjuntar archivo">Upload your CV:</label>
+                        <label for="UploadCV">Upload your CV:</label>
                         <input type="file" name="adjuntar archivo">
-                        </div>
-                        <div class="textoComment">
+
                         <label for="Comments">Comments</label>
+                        <div class="textoComment">
                         <input type="text" name="Comments">
                         </div>
-                        <input type="button" value="Apply" id="botonApply">
 
+                        <input type="button" value="Apply" id="botonApply">
+                      </div>
                 </form>
             </section>
-            <fieldset>
-        
+          </fieldset>
+
             <section>
                 <h2>Open Positions</h2>
-                <div class="row justify-content-evenly">
+                <div class="row justify-content-evenly" style="padding: 15px;">
                 <div class="card" style="width: 40rem;">
                     <div class="card-body">
                       <h5 class="card-title">Accounting Analyst</h5>
