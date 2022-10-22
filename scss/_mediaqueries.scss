@@ -1,7 +1,19 @@
-/* @media screen and (max-width:500px){
+ @media screen and (max-width:500px){
     
     .logoCocreative{    
         width: 50px;
+    }
+
+    .fotoMagui{
+        width: 15rem;
+        height: 20rem;}
+    .fotoMili{
+        width: 15rem;
+        height: 20rem;
+    }
+    .fotoEuge{
+        width: 15rem;
+        height: 20rem;
     }
   
     .principalIndex{ 
@@ -30,7 +42,7 @@
         font-size: 10px;
     }
     label{
-        font-size: 10px;
+        font-size: 8px;
     }
     
     }
@@ -54,11 +66,11 @@
         width: 90vw;
               
         h3{
-            font-size: 1rem;
+            font-size: 5px;
             justify-content: left;    
         }
         h2{
-            font-size: 1rem;
+            font-size: 8px;
             justify-content: left;    
         }
     }
@@ -69,12 +81,13 @@
     
 
 
-/* RESPONSIVE CEL OUR SERVICES */
-/* @media screen and (max-width:500px){
+/* RESPONSIVE CEL OUR SERVICES
+ */
+@media screen and (max-width:500px){
     main .principal__tituloOS{
         font-size: 50px;           
     }
-    } */
+    } 
 
 
 
