@@ -181,13 +181,14 @@ body {
 .card-text {
   font-size: 10px; }
 
-.principalApply {
-  background-color: #EF476F;
-  width: 99vw;
-  height: fit-content; }
-
+/* .principalApply{
+    background-color: #EF476F;
+    width: 99vw;
+    height: fit-content;
+} */
 .textoForm {
   width: 60vw;
+  color: white;
   font-family: 'Montserrat', sans-serif;
   line-height: 1;
   font-size: 15px; }
@@ -202,7 +203,7 @@ body {
   margin: auto;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  background: #f4beca;
+  background: #EF476F;
   padding: 1rem;
   box-sizing: border-box;
   border-radius: 1rem;
@@ -221,7 +222,23 @@ body {
   width: 12rem; }
 
 .colorFondoapply {
-  background-color: #EF476F; }
+  background-image: url(../multimedia/pruebamili.jpg);
+  background-position: 100vw;
+  background-size: 100vw;
+  margin: 0px;
+  height: fit-content; }
+  .colorFondoapply h1 {
+    font-size: 40px;
+    color: #073B4C;
+    background-color: white;
+    width: 250px;
+    margin-left: 606px; }
+  .colorFondoapply .textoJoin {
+    font-size: 30px;
+    color: #073B4C;
+    background-color: white;
+    width: 250px;
+    margin-left: 606px; }
 
 .studylevel {
   line-height: 1.6; }
@@ -399,7 +416,7 @@ header {
   header ul {
     list-style: none;
     font-size: 0;
-    width: 60vw;
+    width: 50vw;
     display: none; }
     header ul li {
       display: inline-block;
