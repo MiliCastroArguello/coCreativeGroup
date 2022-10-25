@@ -1,39 +1,41 @@
- @media screen and (max-width:500px){
-    
-    .logoCocreative{    
-        width: 50px;
-    }
-
+ @media screen and (max-width:500px){ 
+    .col-lg-12 {
+        margin-inline: inherit;
+    } 
+    .col-lg-2 {
+        margin-inline: inherit;
+    } 
     .fotoMagui{
-        width: 15rem;
-        height: 20rem;}
+        width: 10rem;
+        height: fit-content;}
     .fotoMili{
-        width: 15rem;
-        height: 20rem;
+        width: 10rem;
+        height: fit-content;
     }
     .fotoEuge{
-        width: 15rem;
-        height: 20rem;
-    }
-  
-    .principalIndex{ 
-        background-color: #EF476F;
-        width: 100vw;
-        height: 210px;
-    }   
-        
+        width: 10rem;
+        height: fit-content;
+    }    
     .fotoPortada{
         width: 100vw;
-        height: 150px;
-        padding: 15px;
+        height: fit-content;
     }
     .principal__slogan{
         font-size: 15px;
         padding: 15px;
         padding-bottom: 5px;
         margin: 1rem;
+    }  
+    .mainAbout div {
+        margin-inline: inherit;
+        h2{
+            margin-inline: inherit;
+        }
+    }  
+    .mainAbout{
+        background-size: 105vw 124vh;
+
     }
-    
     div select{
         font-size: 10px;
         width: 150px;
@@ -43,28 +45,11 @@
     }
     label{
         font-size: 8px;
-    }
-    
-    }
-        
-    
-    .copyRight{
-        font-size: small;
-    }
-
-    .whatsapp{
-        width:2rem;
-        height:2rem;
-    }
-    .LinkedIn{
-        width:2rem;
-        height:2rem;
-    }
-
+    }   
     .contenedorPrincipal p{
         font-size: 5px;
         width: 90vw;
-              
+        
         h3{
             font-size: 5px;
             justify-content: left;    
@@ -73,21 +58,25 @@
             font-size: 8px;
             justify-content: left;    
         }
-    }
+    } 
     footer p{
         font-size: 3px;
     }
-    
-    
-
-
-/* RESPONSIVE CEL OUR SERVICES
- */
-@media screen and (max-width:500px){
     main .principal__tituloOS{
         font-size: 50px;           
     }
-    } 
+    .logoCocreative{
+        width: 15px;
+        height: 25px;
+    }
+    
+    }
+  
+   
+    
+    
+
+
 
 
 

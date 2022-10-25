@@ -23,58 +23,56 @@ article {
   color: white; }
 
 @media screen and (max-width: 500px) {
-  .logoCocreative {
-    width: 50px; }
-  .principalIndex {
-    background-color: #EF476F;
-    width: 100vw;
-    height: 210px; }
+  .col-lg-12 {
+    margin-inline: inherit; }
+  .col-lg-2 {
+    margin-inline: inherit; }
+  .fotoMagui {
+    width: 10rem;
+    height: fit-content; }
+  .fotoMili {
+    width: 10rem;
+    height: fit-content; }
+  .fotoEuge {
+    width: 10rem;
+    height: fit-content; }
   .fotoPortada {
     width: 100vw;
-    height: 150px;
-    padding: 15px; }
+    height: fit-content; }
   .principal__slogan {
     font-size: 15px;
     padding: 15px;
     padding-bottom: 5px;
     margin: 1rem; }
+  .mainAbout div {
+    margin-inline: inherit; }
+    .mainAbout div h2 {
+      margin-inline: inherit; }
+  .mainAbout {
+    background-size: 105vw 124vh; }
   div select {
     font-size: 10px;
     width: 150px; }
   .colorFondoapply {
     font-size: 10px; }
   label {
-    font-size: 8px; } }
-
-.copyRight {
-  font-size: small; }
-
-.whatsapp {
-  width: 2rem;
-  height: 2rem; }
-
-.LinkedIn {
-  width: 2rem;
-  height: 2rem; }
-
-.contenedorPrincipal p {
-  font-size: 5px;
-  width: 90vw; }
-  .contenedorPrincipal p h3 {
+    font-size: 8px; }
+  .contenedorPrincipal p {
     font-size: 5px;
-    justify-content: left; }
-  .contenedorPrincipal p h2 {
-    font-size: 8px;
-    justify-content: left; }
-
-footer p {
-  font-size: 3px; }
-
-/* RESPONSIVE CEL OUR SERVICES
- */
-@media screen and (max-width: 500px) {
+    width: 90vw; }
+    .contenedorPrincipal p h3 {
+      font-size: 5px;
+      justify-content: left; }
+    .contenedorPrincipal p h2 {
+      font-size: 8px;
+      justify-content: left; }
+  footer p {
+    font-size: 3px; }
   main .principal__tituloOS {
-    font-size: 50px; } }
+    font-size: 50px; }
+  .logoCocreative {
+    width: 15px;
+    height: 25px; } }
 
 .principalIndex {
   background-color: #EF476F;
@@ -88,11 +86,9 @@ footer p {
   padding: 1rem; }
 
 .fotoPortada {
-  background-image: none;
-  background-position: center;
-  width: 95%;
+  width: 100%;
   height: auto;
-  margin: 25px; }
+  margin: 0px; }
 
 body {
   width: 100vw;
