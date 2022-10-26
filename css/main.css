@@ -22,13 +22,9 @@ article {
 .principal__tituloOS {
   color: white; }
 
-@media screen and (max-width: 500px) {
-  .col-lg-12 {
-    margin-inline: inherit; }
-  .col-lg-2 {
-    margin-inline: inherit; }
+@media only screen and (max-width: 500px) {
   .fotoMagui {
-    width: 10rem;
+    width: 0rem;
     height: fit-content; }
   .fotoMili {
     width: 10rem;
@@ -36,6 +32,16 @@ article {
   .fotoEuge {
     width: 10rem;
     height: fit-content; }
+  .principalService {
+    margin: 0px; }
+    .principalService h1 {
+      font-size: 18px; }
+    .principalService h2 {
+      font-size: 16px; }
+    .principalService h3 {
+      font-size: 14px; }
+    .principalService h4 {
+      font-size: 12px; }
   .fotoPortada {
     width: 100vw;
     height: fit-content; }
@@ -45,21 +51,34 @@ article {
     padding-bottom: 5px;
     margin: 1rem; }
   .mainAbout div {
-    margin-inline: inherit; }
-    .mainAbout div h2 {
-      margin-inline: inherit; }
+    margin-left: 0px; }
   .mainAbout {
     background-size: 105vw 124vh; }
-  div select {
-    font-size: 10px;
-    width: 150px; }
   .colorFondoapply {
     font-size: 10px; }
+    .colorFondoapply h2 {
+      font-size: 24px; }
+    .colorFondoapply h3 {
+      color: aliceblue; }
+    .colorFondoapply .studylevel {
+      font-size: 11px; }
+    .colorFondoapply #botonApply {
+      font-size: 1rem;
+      width: 8rem; }
+  .colorFondoapply h1 {
+    font-size: 30px;
+    width: 160px;
+    margin-left: 168px; }
+  .textoJoin {
+    font-size: 30px;
+    width: 238px;
+    margin-left: 132px; }
   label {
-    font-size: 8px; }
+    font-size: 11px; }
+    label select {
+      width: 223px; }
   .contenedorPrincipal p {
-    font-size: 5px;
-    width: 90vw; }
+    font-size: 5px; }
     .contenedorPrincipal p h3 {
       font-size: 5px;
       justify-content: left; }
@@ -68,11 +87,23 @@ article {
       justify-content: left; }
   footer p {
     font-size: 3px; }
-  main .principal__tituloOS {
-    font-size: 50px; }
-  .logoCocreative {
-    width: 15px;
-    height: 25px; } }
+  .principalContact, .principalContact--apply {
+    width: fit-content;
+    height: fit-content;
+    margin-left: 15px; }
+  .principalContact h2, .principalContact--apply h2 {
+    font-size: 15px;
+    padding-top: 10px; }
+  .principalContact article, .principalContact--apply article {
+    margin-top: 15px;
+    margin: 0px; }
+  .principalContact, .principalContact--apply, .principalContact--apply {
+    margin: 0px 40px; }
+  #botonContact {
+    font-size: 1rem;
+    width: 8rem; }
+  header ul li {
+    font-size: 10px; } }
 
 .principalIndex {
   background-color: #EF476F;
@@ -124,7 +155,7 @@ body {
     font-size: 15px;
     margin: 15px; }
   .contenedorPrincipal div {
-    margin-top: 10px; }
+    margin-top: 0px; }
 
 .principalService {
   background-color: #EF476F;
