@@ -11,6 +11,10 @@
         width: 10rem;
         height: fit-content;
     }    
+    .fotoBusqueda{
+        width: 150px;
+        height: min-content;
+    }
     .principalService{
         h1{
             font-size: 18px;
@@ -37,7 +41,7 @@
         padding-bottom: 5px;
         margin: 1rem;
     }  
-    .mainAbout div {
+    .mainAbout div h1{
         margin-left: 0px;
        
     }      
@@ -64,12 +68,6 @@
         }
     }
 
-    .colorFondoapply h1{
-            font-size: 30px;
-            width: 160px;
-            margin-left: 168px;
-        }
-    
     .textoJoin{
         font-size: 30px;
         width: 238px;
@@ -82,18 +80,25 @@
             width: 223px;
         }
     }   
-    .contenedorPrincipal p{
+    .contenedorPrincipal{ p{
         font-size: 5px;
-        
+    }
         h3{
             font-size: 5px;
-            justify-content: left;    
+            justify-content: left; 
         }
+         
         h2{
             font-size: 8px;
-            justify-content: left;    
+            justify-content: left;
+            margin-left: 50px;
+        }    
         }
-    } 
+    .contenedorPrincipal h1 {
+            font-size: 15px;
+            margin-left: 50px;
+        }
+
     footer p{
         font-size: 3px;
     }
@@ -125,8 +130,12 @@
  header ul li {    
     font-size: 10px; 
 }
-}
-  
+
+.titulosPrincipales{
+    font-size: 10px;
+    width: 50px;
+    margin-left: 15px;
+} }
     
     
 

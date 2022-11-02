@@ -1,10 +1,10 @@
 
 .mainAbout{
     background-image: url(../multimedia/about-us-sign.jpg);
-    background-position: 100vw;
+    background-position: top center;
     background-size: 100vw;
     margin: 0px;
-    height: fit-content;
+    height: 1010px;
 }
 .contenedorPrincipal{
     display: flex;
@@ -14,23 +14,37 @@
  */ width: 100vw;
     height: fit-content;
     padding: 0;
+    
+    h1{
+        color: #073B4C;
+        width: 250px;
+        font-size: 35px;
+        margin-left: 850px
+    }
     h2{ 
         color: #073B4C;
         font-size: 25px;
+        width: 150px;
+        margin-left: 800px
     }
     h3{
     font-style: normal;
-    font-family:'Montserrat', sans-serif;
+    width: 150px;
     margin: 10px;
     }
     p{
-        color: #f8ffe5;
-        font-size: 15px;
-        margin: 15px;
+        color:#052b37;
+        font-size: 18px;
+        margin: 0px;
+        text-align: justify;
+        width: 710px; 
+        height: 95px;
+        margin-left: 760px;
     }  
     div{
         margin-top: 0px;
-    }
-    
+    }    
 }
+
+
 

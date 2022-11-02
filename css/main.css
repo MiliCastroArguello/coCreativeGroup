@@ -1,6 +1,5 @@
 .principalContact, .principalContact--apply {
   background-color: #EF476F;
-  font-family: 'Montserrat', sans-serif;
   width: 5rem;
   height: 30rem;
   margin: 5rem 5rem;
@@ -16,8 +15,8 @@ article {
   display: flex;
   flex-direction: row;
   justify-content: left;
-  margin: 20px;
-  padding: 5px; }
+  margin: 40px;
+  padding: 12px; }
 
 .principal__tituloOS {
   color: white; }
@@ -32,6 +31,9 @@ article {
   .fotoEuge {
     width: 10rem;
     height: fit-content; }
+  .fotoBusqueda {
+    width: 150px;
+    height: min-content; }
   .principalService {
     margin: 0px; }
     .principalService h1 {
@@ -50,7 +52,7 @@ article {
     padding: 15px;
     padding-bottom: 5px;
     margin: 1rem; }
-  .mainAbout div {
+  .mainAbout div h1 {
     margin-left: 0px; }
   .mainAbout {
     background-size: 105vw 124vh; }
@@ -65,10 +67,6 @@ article {
     .colorFondoapply #botonApply {
       font-size: 1rem;
       width: 8rem; }
-  .colorFondoapply h1 {
-    font-size: 30px;
-    width: 160px;
-    margin-left: 168px; }
   .textoJoin {
     font-size: 30px;
     width: 238px;
@@ -79,12 +77,16 @@ article {
       width: 223px; }
   .contenedorPrincipal p {
     font-size: 5px; }
-    .contenedorPrincipal p h3 {
-      font-size: 5px;
-      justify-content: left; }
-    .contenedorPrincipal p h2 {
-      font-size: 8px;
-      justify-content: left; }
+  .contenedorPrincipal h3 {
+    font-size: 5px;
+    justify-content: left; }
+  .contenedorPrincipal h2 {
+    font-size: 8px;
+    justify-content: left;
+    margin-left: 50px; }
+  .contenedorPrincipal h1 {
+    font-size: 15px;
+    margin-left: 50px; }
   footer p {
     font-size: 3px; }
   .principalContact, .principalContact--apply {
@@ -103,7 +105,11 @@ article {
     font-size: 1rem;
     width: 8rem; }
   header ul li {
-    font-size: 10px; } }
+    font-size: 10px; }
+  .titulosPrincipales {
+    font-size: 10px;
+    width: 50px;
+    margin-left: 15px; } }
 
 .principalIndex {
   background-color: #EF476F;
@@ -122,6 +128,8 @@ article {
   margin: 0px; }
 
 body {
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
   width: 100vw;
   height: 100vh;
   margin: 0px;
@@ -129,10 +137,10 @@ body {
 
 .mainAbout {
   background-image: url(../multimedia/about-us-sign.jpg);
-  background-position: 100vw;
+  background-position: top center;
   background-size: 100vw;
   margin: 0px;
-  height: fit-content; }
+  height: 1010px; }
 
 .contenedorPrincipal {
   display: flex;
@@ -143,44 +151,79 @@ body {
   width: 100vw;
   height: fit-content;
   padding: 0; }
+  .contenedorPrincipal h1 {
+    color: #073B4C;
+    width: 250px;
+    font-size: 35px;
+    margin-left: 850px; }
   .contenedorPrincipal h2 {
     color: #073B4C;
-    font-size: 25px; }
+    font-size: 25px;
+    width: 150px;
+    margin-left: 800px; }
   .contenedorPrincipal h3 {
     font-style: normal;
-    font-family: 'Montserrat', sans-serif;
+    width: 150px;
     margin: 10px; }
   .contenedorPrincipal p {
-    color: #f8ffe5;
-    font-size: 15px;
-    margin: 15px; }
+    color: #052b37;
+    font-size: 18px;
+    margin: 0px;
+    text-align: justify;
+    width: 710px;
+    height: 95px;
+    margin-left: 760px; }
   .contenedorPrincipal div {
     margin-top: 0px; }
 
 .principalService {
-  background-color: #EF476F;
   width: 100vw;
-  height: fit-content; }
+  height: 180vh; }
 
 .fotoBusqueda {
-  width: 150px;
-  height: 150px;
-  padding: 20px; }
+  width: 350px;
+  height: min-content;
+  margin-top: 20px; }
 
 .articleService {
   display: flex;
-  display: block;
-  width: 80%;
+  display: inline-block;
   height: auto;
-  padding: 15px; }
+  padding: 40px; }
 
 .fontTitleservice {
-  color: antiquewhite;
-  font-size: 30px; }
+  color: #073B4C;
+  font-size: 30px;
+  margin: 82px 149px 69px 29px; }
 
 .fontParragraphservice {
-  color: antiquewhite;
-  font-size: 20px; }
+  color: #073B4C;
+  font-size: 15px;
+  margin: 25px 50px 10px 5px; }
+
+.fontTitleservice2 {
+  color: #073B4C;
+  width: 155px;
+  font-size: 30px;
+  margin: 82px 190px 69px 29px; }
+
+.fontParragraphservice2 {
+  color: #073B4C;
+  font-size: 15px;
+  margin: 25px 50px 10px 25px; }
+
+.lista2 {
+  margin-top: -25px;
+  margin-left: 7px; }
+
+.lista3 {
+  margin-top: 42px; }
+
+.whatweoffer {
+  color: #EF476F;
+  margin-left: 650px;
+  margin-top: 15px;
+  font-size: 25px; }
 
 .card-text {
   font-size: 10px; }
@@ -193,7 +236,6 @@ body {
 .textoForm {
   width: 60vw;
   color: white;
-  font-family: 'Montserrat', sans-serif;
   line-height: 1;
   font-size: 15px; }
 
@@ -256,7 +298,6 @@ body {
 
 .principalContact, .principalContact--apply {
   background-color: #EF476F;
-  font-family: 'Montserrat', sans-serif;
   width: fit-content;
   height: fit-content;
   margin: 0px 150px;
@@ -387,28 +428,24 @@ html {
 
 /* esto es para que el REM valga 10px sirve para que se adapte a celular*/
 /* todos los H van a tener estas propiedades */
-h1 {
+.principal__slogan {
   color: #f8ffe5;
   text-align: center;
   font-size: 40px;
-  font-family: 'Montserrat', sans-serif;
   font-weight: bold; }
 
-h2 {
+.legendApply {
   color: #f8ffe5;
-  font-family: 'Montserrat', sans-serif;
   font-size: 35px;
   text-align: center;
   font-weight: bold; }
 
 h3 {
   color: #073B4C;
-  font-family: 'Montserrat', sans-serif;
   font-style: bold;
   font-weight: bold; }
 
 p {
-  font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   line-height: 1.6; }
 
@@ -450,16 +487,6 @@ footer {
   footer p {
     font-size: 15px; }
 
-/* .navbar-toggler{
-    font-family:'Montserrat', sans-serif;
-    font-size: 15px;
-    display: inline-flex;
-    flex-basis: initial;
-}
-.navbar-brand{
-    padding: 0%;
-    margin: 0%;
-} */
 .copyRight {
   font-size: 13px;
   color: white;
@@ -488,3 +515,8 @@ footer {
 
 .card-link {
   font-size: 10px; }
+
+.titulosPrincipales {
+  font-size: 35px;
+  color: #073B4C;
+  margin-left: 470px; }

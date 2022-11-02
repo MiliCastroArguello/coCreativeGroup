@@ -15,17 +15,15 @@ html{
 }/* esto es para que el REM valga 10px sirve para que se adapte a celular*/
 
 /* todos los H van a tener estas propiedades */
-h1{
+.principal__slogan{
     color:#f8ffe5;
     text-align: center;
     font-size: 40px;
-    font-family: 'Montserrat', sans-serif;  
     font-weight: bold;  
 }
 
-h2{ 
+.legendApply{ 
     color:#f8ffe5;
-    font-family: 'Montserrat', sans-serif; 
     font-size: 35px;
     text-align: center;
     font-weight: bold;
@@ -33,13 +31,11 @@ h2{
 
 h3{ 
     color: #073B4C;
-    font-family: 'Montserrat', sans-serif;  
     font-style: bold;
     font-weight: bold;
 }
 
 p{  
-    font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     line-height: 1.6;
 }
@@ -91,19 +87,6 @@ p{
     }
 }
 
-/* .navbar-toggler{
-    font-family:'Montserrat', sans-serif;
-    font-size: 15px;
-    display: inline-flex;
-    flex-basis: initial;
-}
-.navbar-brand{
-    padding: 0%;
-    margin: 0%;
-} */
-
-
-
 .copyRight{ 
     font-size: 13px;
     color: white;
@@ -135,4 +118,9 @@ p{
     font-size: 10px;
 }
 
+.titulosPrincipales{
+    font-size: 35px;
+    color: #073B4C;
+    margin-left: 470px;
+}
 
