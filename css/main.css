@@ -22,8 +22,10 @@ article {
   color: white; }
 
 @media only screen and (max-width: 500px) {
+  .logoCocreative {
+    width: 92px; }
   .fotoMagui {
-    width: 0rem;
+    width: 10rem;
     height: fit-content; }
   .fotoMili {
     width: 10rem;
@@ -47,15 +49,31 @@ article {
   .fotoPortada {
     width: 100vw;
     height: fit-content; }
-  .principal__slogan {
+  .principalIndex .principal__slogan {
     font-size: 15px;
     padding: 15px;
     padding-bottom: 5px;
     margin: 1rem; }
   .mainAbout div h1 {
-    margin-left: 0px; }
-  .mainAbout {
-    background-size: 105vw 124vh; }
+    margin-left: 236px;
+    font-size: 22px; }
+  .mainAbout div h2 {
+    margin-left: 208px;
+    font-size: 18px; }
+  .mainAbout div p {
+    margin-left: 250px;
+    font-size: 10px;
+    width: 220px; }
+  .mainAbout div {
+    width: 520px; }
+  .mainAbout img {
+    background-position: bottom;
+    background-size: 99vw;
+    height: 536px; }
+  .mainAbout .ourValues {
+    width: 449px;
+    margin-left: 20px;
+    margin-top: 20px; }
   .colorFondoapply {
     font-size: 10px; }
     .colorFondoapply h2 {
@@ -86,30 +104,42 @@ article {
     margin-left: 50px; }
   .contenedorPrincipal h1 {
     font-size: 15px;
-    margin-left: 50px; }
-  footer p {
-    font-size: 3px; }
+    margin-left: 50px;
+    width: 176px; }
   .principalContact, .principalContact--apply {
-    width: fit-content;
-    height: fit-content;
-    margin-left: 15px; }
+    margin: 0px 75px; }
   .principalContact h2, .principalContact--apply h2 {
     font-size: 15px;
     padding-top: 10px; }
   .principalContact article, .principalContact--apply article {
     margin-top: 15px;
     margin: 0px; }
-  .principalContact, .principalContact--apply, .principalContact--apply {
-    margin: 0px 40px; }
+  .principalContact, .principalContact--apply {
+    margin: 1px 76px; }
   #botonContact {
     font-size: 1rem;
     width: 8rem; }
-  header ul li {
+  .mainContact {
+    background-position: 100vw;
+    background-size: 125vw; }
+    .mainContact .titulosPrincipales {
+      color: aliceblue;
+      font-size: 17px;
+      padding-top: 11px;
+      margin-left: 40px; }
+      .mainContact .titulosPrincipales #botonContact {
+        font-size: 1rem;
+        width: 11rem; }
+  input, textarea {
+    height: 30px; }
+  .copyRight {
     font-size: 10px; }
-  .titulosPrincipales {
-    font-size: 10px;
-    width: 50px;
-    margin-left: 15px; } }
+  .whatsapp {
+    width: 40px; }
+  .LinkedIn {
+    width: 40px; }
+  .logoCocreative {
+    width: 92px; } }
 
 .principalIndex {
   background-color: #EF476F;
@@ -432,7 +462,8 @@ html {
   color: #f8ffe5;
   text-align: center;
   font-size: 40px;
-  font-weight: bold; }
+  font-weight: bold;
+  padding: 1rem; }
 
 .legendApply {
   color: #f8ffe5;
@@ -484,8 +515,6 @@ footer {
   height: 25%;
   width: 100vw;
   margin: 0px; }
-  footer p {
-    font-size: 15px; }
 
 .copyRight {
   font-size: 13px;
