@@ -1,7 +1,10 @@
  @media only screen and (max-width:500px){ 
-    .logoCocreative{    
+header a .logoCocreative{    
         width: 92px;
        }
+header ul li a{
+    font-size: 10px;
+}
       .fotoMagui{
         width: 10rem;
         height: fit-content;}
@@ -18,21 +21,42 @@
         width: 150px;
         height: min-content;
     }
+    .fotoBusqueda1{
+        width: 150px;
+        height: min-content;
+    }
+    
     .principalService{
         h1{
             font-size: 18px;
         }
         h2{
             font-size: 16px;
+            margin-left: 186px;
         }
         h3{
             font-size: 14px;
+            margin: 33px 10px 114px 8px;
         }
         h4{
-            font-size: 12px;
+            font-size: 10px;
+            margin:8px 0px 6px 0px;
         }
+        ul{
+            padding:0px;
+        }
+        article{
+            margin: 0px;
+            padding: 0px;
+        }
+        height: 99vh;
         margin: 0px;
         
+    }
+    .colorFondoapply .textoJoin {
+        font-size: 19px;
+        width: 155px;
+        margin-left: 145px;
     }
     .fotoPortada{
         width: 100vw;
@@ -52,36 +76,50 @@
        
     }   
     .mainAbout div h2{
-        margin-left: 208px;
-        font-size: 18px;
-       
-    }     
+        margin-left: 287px;
+        font-size: 18px;     
+    }   
+    .mainAbout div .ourValues2{
+        margin-left:16px;
+        margin-top: 16px;
+    }  
+
     .mainAbout div p{
         margin-left: 250px;
         font-size: 10px;
         width: 220px;
     }  
-    .mainAbout div {
+    .mainAbout div .ourvision{
+        width: 153px;
+        margin:0px 0px 0px 307px;
+    }
+    
+    .mainAbout{
         width: 520px;
     }  
-    .mainAbout{
-        img{
+    .mainAbout{        
         background-position:bottom;
         background-size: 99vw;
         height: 536px;
-        }
     .ourValues{
         width: 449px;
-        margin-left: 20px;
-        margin-top:20px
+        margin-left: 17px;
+        margin-right: 0px;
+        margin-top:0px
     }
 }
-      
-    .colorFondoapply{
+.titulosPrincipales{
+            margin-left:50px;
+       }
+
+
+.colorFondoapply{
         font-size: 10px;
-       
+        h1{
+            font-size: 19px;
+        }
         h2{
-            font-size: 24px;
+            font-size: 15px;
         }
         h3{
             color: aliceblue;
@@ -96,12 +134,7 @@
         }
     }
 
-    .textoJoin{
-        font-size: 30px;
-        width: 238px;
-        margin-left: 132px;
-    }
-    
+        
     label{
         font-size: 11px;
         select{
@@ -127,21 +160,33 @@
             margin-left: 50px;
             width: 176px;
         }
-    .principalContact{ 
-        margin: 0px 75px;    
+    .contenedorPrincipal .mainAbout{
+            height: 439px;
+            width: 495px;
+        }  
+main .principalContact article{
+    justify-content: center;
+    margin: 0px;
+    padding: 12px;
+}    
+main .principalContact{ 
+    height: 150px;
     }
-    .principalContact h2{
+.principalContact h2{
         font-size: 15px;
         padding-top:10px 
-
 }
-.principalContact article{
-    margin-top: 15px;
-    margin: 0px;
+.principalContact section .formContact{
+    width: 53vw;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.mainContact.principalContact{
+    width: 301px;
 }
 
 .principalContact{
-    margin: 1px 76px;
     #botonContact{   
     padding: 4px 10px 5px;
     font-size: 17px;
@@ -149,27 +194,49 @@
     height: 45px;
      }
  }
-
- 
-.mainContact{ 
+ body .mainContact{
     background-position: 100vw;
-    background-size: 125vw;
+    background-size: 119vw;
+ }
+.mainContact{     
         .titulosPrincipales{
         color:aliceblue;
-        font-size:17px;
-        padding-top: 11px;
-        margin-left: 40px;
+        font-size:14px;
+        padding-top: 7px;
+        width: 258px;
+        margin-left: 27px;
+
         #botonContact{
             font-size: 1rem;
             width: 11rem;
         }
 } }
 input, textarea{
-    height: 30px;
+    height: 13px;
 }
-    
-
-
+.textoForm input{
+    padding: 19px;
+}
+main .colorFondoapply .titulosPrincipales{
+    margin-left: 198px;
+    font-size: 22px;
+    width: 92px;
+}
+main .colorFondoapply .textoJoin{
+    margin-left:169px;
+    font-size: 19px;
+    width: 152px;
+}
+main .colorFondoapply .textoForm{
+    font-size: 12px;
+}
+main .principalService{
+    height: 91vh;
+}
+div .mainAbout{
+    height: 440px;
+}
+footer{
 .copyRight{ 
     font-size: 10px;
 }
@@ -179,11 +246,73 @@ input, textarea{
 .LinkedIn{   
     width: 40px;
 }
+}
 .logoCocreative{    
     width: 92px;
     
 }
-
+main footer{
+    height: 21%;
 }
 
+.principalService{
+    .titulosPrincipales{
+        margin-left: 100px;
+    }
+}
+
+div .articleService{
+    padding: 0px;
+}
+
+.articleService{ 
+    .fotoBusqueda1{
+        width: 150px;
+        margin-top: 82px;
+        margin-left:2px;
+    }  
+    .fotoBusqueda{
+        width: 150px;
+        margin-top: 10px;
+    }   
+    .fontTitleservice{
+        font-size: 13px;
+        margin: 42px 16px 39px 19px;
+        width: 119px
+    } 
+    .fontParragraphservice{
+        font-size: 10px;
+        margin: 15px 0px 5px 2.5px;        
+    }
+    .fontTitleservice2{
+        width: 86px;
+        font-size: 15px;
+        margin: 120px 48px 39px 19px;
+    }
+    .fontTitleservice3{
+        width: 86px;
+        font-size: 15px;
+        margin: 44px 48px 39px 19px;
+    }
+    .fontParragraphservice2{
+        font-size: 10px;
+        margin: 15px 30px 5px 15px;
+    }
+    .lista1{
+        margin: 0px;
+        width: 221px;
+    }
+    .lista2{
+        margin: 0px;
+    }
+    .lista3{
+        margin: 0px;
+    }
+}
+.whatweoffer{
+    margin-left: 150px;
+    margin-top: 3px;
+    font-size: 15px;
+}
+}
 

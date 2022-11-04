@@ -1,17 +1,18 @@
 
 .mainAbout{
     background-image: url(../multimedia/about-us-sign.jpg);
-    background-position: top center;
+    background-position: 4% 1%;
+    background-repeat: repeat;
     background-size: 100vw;
     margin: 0px;
+    width: 100vw;
     height: 1010px;
 }
 .contenedorPrincipal{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-/*     background-color: #EF476F;
- */ width: 100vw;
+    width: 100vw;
     height: fit-content;
     padding: 0;
     
@@ -43,7 +44,8 @@
     }  
     div{
         margin-top: 0px;
-    }    
+    }
+  
 }
 
 
